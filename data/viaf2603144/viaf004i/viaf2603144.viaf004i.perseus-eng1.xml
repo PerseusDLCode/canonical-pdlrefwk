@@ -4,7 +4,7 @@
 	<teiHeader xml:lang="eng">
 		<fileDesc>
 			<titleStmt>
-				<title>Introduction to Commentary on Sophocles: Antigone</title>
+				<title>Introduction to Commentary on Sophocles: Ajax</title>
 				<author>Sir Richard C. Jebb</author>
 				<sponsor>Perseus Project, Tufts University</sponsor>
 				<principal>Gregory Crane</principal>
@@ -33,7 +33,7 @@
 				<biblStruct>
 					<monogr>
 						<title>Sophocles: The Plays and Fragments</title>
-						<title type="subtitle" xml:lang="mul">The Antigone</title>
+						<title type="subtitle" xml:lang="mul">The Ajax</title>
 						<author>Richard Claverhouse Jebb</author>
 						<imprint>
 							<pubPlace>Cambridge</pubPlace>
