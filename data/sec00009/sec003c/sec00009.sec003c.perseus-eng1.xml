@@ -41,24 +41,19 @@
 							<date>1897</date>
 						</imprint>
 					</monogr>
-					<ref
-						target="https://hdl.handle.net/2027/mdp.39015008024815?urlappend=%3Bseq=178%3Bownerid=13510798888294386-190" />
+					<ref target="https://hdl.handle.net/2027/mdp.39015008024815?urlappend=%3Bseq=178%3Bownerid=13510798888294386-190"/>
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<refsDecl n="CTS">
-				<cRefPattern matchPattern="(\w+)"
-					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"
-					n="section">
+				<cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])" n="section">
 					<p>This pointer extracts section</p>
 				</cRefPattern>
 			</refsDecl>
 			<refsDecl xml:id="CTS" n="CTS">
-				<citeStructure xmlns:tei="http://www.tei-c.org/ns/1.0"
-					match="/tei:TEI/tei:text/tei:body" use="@xml:base">
-					<citeStructure unit="section" delim=":" match="tei:div[@type='section']"
-						use="@n" />
+				<citeStructure xmlns:tei="http://www.tei-c.org/ns/1.0" match="/tei:TEI/tei:text/tei:body" use="@xml:base">
+					<citeStructure unit="section" delim=":" match="tei:div[@type='section']" use="@n"/>
 				</citeStructure>
 			</refsDecl>
 		</encodingDesc>
@@ -94,8 +89,7 @@
 				<p>
 					<seg type="lemma" ana="#nunc_1">nunc
 					</seg>
-					<seg type="comment" xml:id="nunc_1">, opposed to the time of the <foreign
-							xml:lang="lat">actio
+					<seg type="comment" xml:id="nunc_1">, opposed to the time of the <foreign xml:lang="lat">actio
 							prima</foreign>, which he has just referred to. </seg>
 				</p>
 				<p>
@@ -114,8 +108,7 @@
 					<seg type="lemma" ana="#tenerem_1">tenerem
 					</seg>
 					<seg type="comment" xml:id="tenerem_1">: for tense, see § <ref n="AG 485">485</ref>,j
-						(287, i); B. 268,7, b; G. 511, R.2; H. 547, I (495, i) ; cf. H.-B. 481. <pb
-							n="324" />
+						(287, i); B. 268,7, b; G. 511, R.2; H. 547, I (495, i) ; cf. H.-B. 481. <pb n="324"/>
 					</seg>
 				</p>
 				<p>
@@ -234,7 +227,7 @@
 					<seg type="lemma" ana="#nam_4">nam
 					</seg>
 					<seg type="comment" xml:id="nam_4">) gives a sense of <gloss>wonder</gloss> to
-						the question. <pb n="325" />
+						the question. <pb n="325"/>
 					</seg>
 				</p>
 				<p>
@@ -242,8 +235,7 @@
 					</seg>
 					<seg type="comment" xml:id="expediri_4"> ,<gloss>to
 							be got ready</gloss>, i.e. by untying the <foreign xml:lang="lat">fasces</foreign>
-						(rods and axe), which were the badge of the praetor’s <foreign
-							xml:lang="lat">imperium</foreign>. </seg>
+						(rods and axe), which were the badge of the praetor’s <foreign xml:lang="lat">imperium</foreign>. </seg>
 				</p>
 				<p>
 					<seg type="lemma" ana="#meruisse_4">meruisse
@@ -257,8 +249,7 @@
 					</seg>
 					<seg type="comment" xml:id="negotiaretur_4">, i.e. as head or agent of some
 						house engaged in speculation (cf. Verr. 1, sect. <ref n="Cic. Ver. 1.1.20">
-						20</ref>). This kind of business was generally carried on by Roman <foreign
-							xml:lang="lat">
+						20</ref>). This kind of business was generally carried on by Roman <foreign xml:lang="lat">
 							equites</foreign>, and on a large scale. </seg>
 				</p>
 				<p>
@@ -310,7 +301,7 @@
 					<seg type="lemma" ana="#lex_Porcia_6">lex Porcia
 					</seg>
 					<seg type="comment" xml:id="lex_Porcia_6">: this forbade the scourging of
-						citizens. <pb n="326" />
+						citizens. <pb n="326"/>
 					</seg>
 				</p>
 				<p>
@@ -520,7 +511,7 @@
 					<seg type="lemma" ana="#qui_esset_10">qui esset
 					</seg>
 					<seg type="comment" xml:id="qui_esset_10"> ,<gloss>what
-							he was</gloss> (i.e. whether a citizen or not). <pb n="327" />
+							he was</gloss> (i.e. whether a citizen or not). <pb n="327"/>
 					</seg>
 				</p>
 				<p>
@@ -535,8 +526,7 @@
 						supposition is general rather than particular ; § <ref n="AG 517">517</ref>,
 						a (308, a) ; G. 597, R.1 ; H. 579, I (510, N.2) ; H.-B. 581; <gloss>if you,
 						caught</gloss>, etc. <gloss>had ever been in the hands of men who were
-						dragging you off to punishment, what other cry would you have raised than, <q
-								rend="double">I am a Roman citizene?</q>
+						dragging you off to punishment, what other cry would you have raised than, <q rend="double">I am a Roman citizene?</q>
 						</gloss>
 					</seg>
 				</p>
@@ -548,8 +538,7 @@
 						preceding sentence): thus </seg>
 					<seg type="lemma" ana="#profuisset_10_2">profuisset
 					</seg>
-					<seg type="comment" xml:id="profuisset_10_2"> involves its own protasis; § <ref
-							n="AG 522">522</ref> (311); B. 305, 1; G. 600, 1; H. 575, 9 (507, N.7);
+					<seg type="comment" xml:id="profuisset_10_2"> involves its own protasis; § <ref n="AG 522">522</ref> (311); B. 305, 1; G. 600, 1; H. 575, 9 (507, N.7);
 						H.-B. 582, 4. It is a complete proposition, which is made conditional by </seg>
 					<seg type="lemma" ana="#si_10">si
 					</seg>
@@ -703,9 +692,7 @@
 					<seg type="lemma" ana="#hostis_13">hostis
 					</seg>
 					<seg type="comment" xml:id="hostis_13">, i.e. by his acts he has virtually
-						declared himself the open enemy of the state as if he were a foreign power <pb
-							n="328" /> making war on the rights of Roman citizens (hence <foreign
-							xml:lang="lat">hostis</foreign> rather than <foreign xml:lang="lat">
+						declared himself the open enemy of the state as if he were a foreign power <pb n="328"/> making war on the rights of Roman citizens (hence <foreign xml:lang="lat">hostis</foreign> rather than <foreign xml:lang="lat">
 						inimicus</foreign>). </seg>
 				</p>
 				<p>
@@ -746,24 +733,19 @@
 				<p> Observe the double climax: <seg type="lemma" ana="#facinus_13">facinus
 					</seg>
 					<seg type="comment" xml:id="facinus_13"> ,</seg>
-					<seg
-						type="lemma" ana="#scelus_13">scelus
+					<seg type="lemma" ana="#scelus_13">scelus
 					</seg>
 					<seg type="comment" xml:id="scelus_13"> ,</seg>
-					<seg
-						type="lemma" ana="#parricidium_13">parricidium
+					<seg type="lemma" ana="#parricidium_13">parricidium
 					</seg>
 					<seg type="comment" xml:id="parricidium_13"> ;</seg>
-					<seg
-						type="lemma" ana="#vincire_13">vincire
+					<seg type="lemma" ana="#vincire_13">vincire
 					</seg>
 					<seg type="comment" xml:id="vincire_13"> ,</seg>
-					<seg
-						type="lemma" ana="#verberare_13">verberare
+					<seg type="lemma" ana="#verberare_13">verberare
 					</seg>
 					<seg type="comment" xml:id="verberare_13"> ,</seg>
-					<seg
-						type="lemma" ana="#necare_13">necare
+					<seg type="lemma" ana="#necare_13">necare
 					</seg>
 					<seg type="comment" xml:id="necare_13">. For the
 						crucifixion of a citizen Cicero can find no word strong enough ; hence the
@@ -773,8 +755,7 @@
 					<seg type="lemma" ana="#parricidium_13_2">parricidium
 					</seg>
 					<seg type="comment" xml:id="parricidium_13_2">: for the horror with which this
-						crime was regarded by the Romans, see Rosc. Am., sects. <ref
-							n="Cic. Ver. 2.2.28">28</ref>,<ref n="Cic. Ver. 2.2.29">29</ref>. </seg>
+						crime was regarded by the Romans, see Rosc. Am., sects. <ref n="Cic. Ver. 2.2.28">28</ref>,<ref n="Cic. Ver. 2.2.29">29</ref>. </seg>
 				</p>
 				<p>
 					<seg type="lemma" ana="#in_comitio_13">in comitio
@@ -782,14 +763,10 @@
 					<seg type="comment" xml:id="in_comitio_13">: i.e. publicly in Rome and in the
 						very centre of Roman freedom and Roman life. The <foreign xml:lang="lat">
 						comitium</foreign> was an open space north of the Forum, on higher ground
-						(see Plan of Forum, top) ; it was used for the most ancient <foreign
-							xml:lang="lat">
+						(see Plan of Forum, top) ; it was used for the most ancient <foreign xml:lang="lat">
 							comitia</foreign>, the <foreign xml:lang="lat">curiata</foreign> (in
-						which the people were assembled by the thirty hereditary <foreign
-							xml:lang="lat">curiae</foreign>), for hearing lawsuits, and for <foreign
-							xml:lang="lat">contiones</foreign>. The <foreign xml:lang="lat">
-							curia</foreign>, or Senate-house, fronted toward the <foreign
-							xml:lang="lat">comitium</foreign>. </seg>
+						which the people were assembled by the thirty hereditary <foreign xml:lang="lat">curiae</foreign>), for hearing lawsuits, and for <foreign xml:lang="lat">contiones</foreign>. The <foreign xml:lang="lat">
+							curia</foreign>, or Senate-house, fronted toward the <foreign xml:lang="lat">comitium</foreign>. </seg>
 				</p>
 				<p>
 					<seg type="lemma" ana="#quod_13">quod

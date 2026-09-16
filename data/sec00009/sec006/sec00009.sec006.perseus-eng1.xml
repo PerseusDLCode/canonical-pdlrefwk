@@ -41,32 +41,24 @@
 							<date>1897</date>
 						</imprint>
 					</monogr>
-					<ref
-						target="https://hdl.handle.net/2027/mdp.39015008024815?urlappend=%3Bseq=294%3Bownerid=13510798888294386-324">
+					<ref target="https://hdl.handle.net/2027/mdp.39015008024815?urlappend=%3Bseq=294%3Bownerid=13510798888294386-324">
 						HathiTrust</ref>
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<refsDecl n="CTS">
-				<cRefPattern matchPattern="(\w+).(\w+)"
-					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])"
-					n="section">
+				<cRefPattern matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])" n="section">
 					<p>This pointer extracts chapter and section.</p>
 				</cRefPattern>
-				<cRefPattern matchPattern="(\w+)"
-					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"
-					n="chapter">
+				<cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])" n="chapter">
 					<p>This pointer extracts chapter.</p>
 				</cRefPattern>
 			</refsDecl>
 			<refsDecl xml:id="CTS" n="CTS">
-				<citeStructure xmlns:tei="http://www.tei-c.org/ns/1.0"
-					match="/tei:TEI/tei:text/tei:body" use="@xml:base">
-					<citeStructure unit="chapter" delim=":" match="tei:div[@type='chapter']"
-						use="@n">
-						<citeStructure unit="section" delim="." match="tei:div[@type='section']"
-							use="@n" />
+				<citeStructure xmlns:tei="http://www.tei-c.org/ns/1.0" match="/tei:TEI/tei:text/tei:body" use="@xml:base">
+					<citeStructure unit="chapter" delim=":" match="tei:div[@type='chapter']" use="@n">
+						<citeStructure unit="section" delim="." match="tei:div[@type='section']" use="@n"/>
 					</citeStructure>
 				</citeStructure>
 			</refsDecl>
@@ -182,16 +174,15 @@
 					<p>Cicero's obligations to Archias make it a duty to undertake his defence.
 						The unusual tone of the argument justified.
 					</p>
-					<milestone unit="page_line" n="p154_l1" />
+					<milestone unit="page_line" n="p154_l1"/>
 					<p>
 						<seg type="lemma" ana="#judices_p154_l1">judices
 						</seg>
 						<seg type="comment" xml:id="judices_p154_l1">, i.e. the members of a special
-							court (<foreign xml:lang="lat">quaestio</foreign>) established by the <foreign
-								xml:lang="lat">Lex Papia</foreign> (see Introd. to the oration,
+							court (<foreign xml:lang="lat">quaestio</foreign>) established by the <foreign xml:lang="lat">Lex Papia</foreign> (see Introd. to the oration,
 							p.154) to inquire into cases arising under that law. </seg>
 					</p>
-					<milestone unit="page_line" n="p154_l3" />
+					<milestone unit="page_line" n="p154_l3"/>
 					<p>
 						<seg type="lemma" ana="#versatum_p154_l3">versatum
 						</seg>
@@ -202,10 +193,9 @@
 					<p>
 						<seg type="lemma" ana="#hujusce_rei_p154_l3">hujusce rei
 						</seg>
-						<seg type="comment" xml:id="hujusce_rei_p154_l3">, i.e. <foreign
-								xml:lang="lat">dicendi</foreign>. </seg>
+						<seg type="comment" xml:id="hujusce_rei_p154_l3">, i.e. <foreign xml:lang="lat">dicendi</foreign>. </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l1" />
+					<milestone unit="page_line" n="p155_l1"/>
 					<p>
 						<seg type="lemma" ana="#ratio_p155_l1">ratio
 						</seg>
@@ -216,7 +206,7 @@
 						</seg>
 						<seg type="comment" xml:id="exercitatio_p155_l1"> , <gloss>practice</gloss>. </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l3" />
+					<milestone unit="page_line" n="p155_l3"/>
 					<p>
 						<seg type="lemma" ana="#A_Licinius_p155_l3">A. Licinius
 						</seg>
@@ -226,27 +216,27 @@
 							Luculli. Cicero's motive in always speaking of him by his Roman name is
 							obvious. </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l6" />
+					<milestone unit="page_line" n="p155_l6"/>
 					<p>
 						<seg type="lemma" ana="#inde_usque_p155_l6">inde usque
 						</seg>
 						<seg type="comment" xml:id="inde_usque_p155_l6"> , <gloss>from as far back
 								as that I say</gloss>. </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l7" />
+					<milestone unit="page_line" n="p155_l7"/>
 					<p>
 						<seg type="lemma" ana="#principem_p155_l7">principem
 						</seg>
 						<seg type="comment" xml:id="principem_p155_l7"> , <gloss>master</gloss>. </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l8" />
+					<milestone unit="page_line" n="p155_l8"/>
 					<p>
 						<seg type="lemma" ana="#rationem_p155_l8">rationem
 						</seg>
 						<seg type="comment" xml:id="rationem_p155_l8"> , <gloss>course</gloss>. For
 							the connection of the meanings of this word, see Vocab. </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l10" />
+					<milestone unit="page_line" n="p155_l10"/>
 					<p>
 						<seg type="lemma" ana="#a_quo_p155_l10">a quo
 						</seg>
@@ -269,7 +259,7 @@
 								to the man himself from whom I have received that whereby</gloss>,
 							etc. </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l11" />
+					<milestone unit="page_line" n="p155_l11"/>
 					<p>
 						<seg type="lemma" ana="#ceteris_p155_l11">ceteris
 						</seg>
@@ -282,7 +272,7 @@
 						<seg type="comment" xml:id="alios_p155_l11">, <gloss>some
 								of them</gloss>. </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l12" />
+					<milestone unit="page_line" n="p155_l12"/>
 					<p>
 						<seg type="lemma" ana="#opem_p155_l12">opem
 						</seg>
@@ -302,14 +292,14 @@
 					</p>
 				</div>
 				<div type="section" n="2" corresp="urn:cts:latinLit:phi0474.phi016:2">
-					<milestone unit="page_line" n="p155_l14" />
+					<milestone unit="page_line" n="p155_l14"/>
 					<p>
 						<seg type="lemma" ana="#neque_p155_l14">neque
 						</seg>
 						<seg type="comment" xml:id="neque_p155_l14">, <gloss>and
 								not</gloss>. </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l15" />
+					<milestone unit="page_line" n="p155_l15"/>
 					<p>
 						<seg type="lemma" ana="#dicendi_disciplina_p155_l15">dicendi ratio aut
 							disciplina
@@ -326,14 +316,13 @@
 					</p>
 				</div>
 				<div type="section" n="3" corresp="urn:cts:latinLit:phi0474.phi016:3">
-					<milestone unit="page_line" n="p155_l20" />
+					<milestone unit="page_line" n="p155_l20"/>
 					<p>
 						<seg type="lemma" ana="#quaestione_legitima_p155_l20">quaestione legitima
 						</seg>
-						<seg type="comment" xml:id="quaestione_legitima_p155_l20">: see note on <foreign
-								xml:lang="lat">judices</foreign>, p.154, 1. </seg>
+						<seg type="comment" xml:id="quaestione_legitima_p155_l20">: see note on <foreign xml:lang="lat">judices</foreign>, p.154, 1. </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l22" />
+					<milestone unit="page_line" n="p155_l22"/>
 					<p>
 						<seg type="lemma" ana="#severissimos_p155_l22">severissimos
 						</seg>
@@ -341,7 +330,7 @@
 							i.e. before men of the old Roman stamp, who might not be favorably
 							impressed by such praise of literature. </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l24" />
+					<milestone unit="page_line" n="p155_l24"/>
 					<p>
 						<seg type="lemma" ana="#forensi_sermone_p155_l24">forensi sermone
 						</seg>
@@ -351,7 +340,7 @@
 							of practical affairs (the Forum being the <foreign xml:lang="lat">centre</foreign>
 							of Roman business and politics). </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l27" />
+					<milestone unit="page_line" n="p155_l27"/>
 					<p>
 						<seg type="lemma" ana="#ut_patiamini_p155_l27">ut ... patiamini
 						</seg>
@@ -362,7 +351,7 @@
 						<seg type="comment" xml:id="veniam_p155_l27">
 							(1.25). </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l28" />
+					<milestone unit="page_line" n="p155_l28"/>
 					<p>
 						<seg type="lemma" ana="#hoc_concursu_p155_l28">hoc concursu
 						</seg>
@@ -373,14 +362,14 @@
 						<seg type="comment" xml:id="hac_humanitate_p155_l28"> , <gloss>with men of
 							your cultivation</gloss>. </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l29" />
+					<milestone unit="page_line" n="p155_l29"/>
 					<p>
 						<seg type="lemma" ana="#hoc_praetore_p155_l29">hoc praetore
 						</seg>
 						<seg type="comment" xml:id="hoc_praetore_p155_l29">:
 							Q. Cicero was himself a poet and man of critical taste. </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l30" />
+					<milestone unit="page_line" n="p155_l30"/>
 					<p>
 						<seg type="lemma" ana="#paulo_liberius_p155_l30">paulo. . . liberius
 						</seg>
@@ -388,7 +377,7 @@
 							unusual freedom: § </gloss>29 1, a (93, a); B. 240,1; G. 297; H. 498
 							(444,1); H-B. 241,2. </seg>
 					</p>
-					<milestone unit="page_line" n="p155_l31" />
+					<milestone unit="page_line" n="p155_l31"/>
 					<p>
 						<seg type="lemma" ana="#otium_studium_p155_l31">otium ac studium
 						</seg>
@@ -411,40 +400,38 @@
 						removal to Rome and his distinguished patrons there. He becomes a
 						citizen of Heraclia.
 					</p>
-					<milestone unit="page_line" n="p156_l3" />
+					<milestone unit="page_line" n="p156_l3"/>
 					<p>
 						<seg type="lemma" ana="#cum_p156_l3">cum
 						</seg>
 						<seg type="comment" xml:id="cum_p156_l3">: causal, but best translated <gloss>
 							when</gloss>. </seg>
 					</p>
-					<milestone unit="page_line" n="p156_l4" />
+					<milestone unit="page_line" n="p156_l4"/>
 					<p>
 						<seg type="lemma" ana="#esset_p156_l4">esset
 						</seg>
-						<seg type="comment" xml:id="esset_p156_l4">: for tense, see § <ref
-								n="AG 589">589</ref>, b, I (337, b, I); B. 268, 4; G. 597, R.4; H.
+						<seg type="comment" xml:id="esset_p156_l4">: for tense, see § <ref n="AG 589">589</ref>, b, I (337, b, I); B. 268, 4; G. 597, R.4; H.
 							647(527, iii); H.-B. 581, b, N. </seg>
 					</p>
-					<milestone unit="page_line" n="p156_l5" />
+					<milestone unit="page_line" n="p156_l5"/>
 					<p>
 						<seg type="lemma" ana="#asciscendum_fuisse_p156_l5">asciscendum fuisse
 						</seg>
-						<seg type="comment" xml:id="asciscendum_fuisse_p156_l5">: in the direct, <foreign
-								xml:lang="lat">asciscendus erat</foreign>; § <ref n="AG 517">517</ref>,
+						<seg type="comment" xml:id="asciscendum_fuisse_p156_l5">: in the direct, <foreign xml:lang="lat">asciscendus erat</foreign>; § <ref n="AG 517">517</ref>,
 							d (308,d); B. 304,3, b; G. 597,R.3,a; H. 582(511,2); H-B. 581,a; cf.
 							note on Pompey's Military Command, sect. <ref n="Cic. Man. 50">50</ref>
 							(<ref n="pl88.32">p. 88, l. 32</ref>), <foreign xml:lang="lat">erat
 							deligendus</foreign>. </seg>
 					</p>
-					<milestone unit="page_line" n="p156_l9" />
+					<milestone unit="page_line" n="p156_l9"/>
 					<p>
 						<seg type="lemma" ana="#urbe_p156_l9">urbe
 						</seg>
 						<seg type="comment" xml:id="urbe_p156_l9">: § <ref n="AG 282">282</ref>,d(184,c);
 							G. 411, R.3; H. 393,7(363,4 2); H-B. 452, a. . </seg>
 					</p>
-					<milestone unit="page_line" n="p156_l12" />
+					<milestone unit="page_line" n="p156_l12"/>
 					<p>
 						<seg type="lemma" ana="#contigit_p156_l12">contigit
 						</seg>
@@ -457,7 +444,7 @@
 						<seg type="comment" xml:id="post_p156_l12">, <gloss>
 								afterwards</gloss>. </seg>
 					</p>
-					<milestone unit="page_line" n="p156_l15" />
+					<milestone unit="page_line" n="p156_l15"/>
 				</div>
 				<div type="section" n="5" corresp="urn:cts:latinLit:phi0474.phi016:5">
 					<p>
@@ -470,7 +457,7 @@
 							Drusus (<date when="-0091">B.C. 91</date>), which was followed by the
 							Social War and the civil wars of Marius and Sulla. </seg>
 					</p>
-					<milestone unit="page_line" n="p156_l16" />
+					<milestone unit="page_line" n="p156_l16"/>
 					<p>
 						<seg type="lemma" ana="#Latio_p156_l16">Latio
 						</seg>
@@ -479,14 +466,14 @@
 							possessed Latin citizenship; that is, the Latin colonies, such as
 							Venusia, the birthplace of the poet Horace. </seg>
 					</p>
-					<milestone unit="page_line" n="p156_l21" />
+					<milestone unit="page_line" n="p156_l21"/>
 					<p>
 						<seg type="lemma" ana="#de_ingeniis_p156_l21">de ingeniis
 						</seg>
 						<seg type="comment" xml:id="de_ingeniis_p156_l21">,
 							i.e. could form some opinion about the talents of literary men. </seg>
 					</p>
-					<milestone unit="page_line" n="p156_l23" />
+					<milestone unit="page_line" n="p156_l23"/>
 					<p>
 						<seg type="lemma" ana="#absentibus_p156_l23">absentibus
 						</seg>
@@ -496,11 +483,10 @@
 					<p>
 						<seg type="lemma" ana="#Mario_Catulo_p156_l23">Mario et Catulo
 						</seg>
-						<seg type="comment" xml:id="Mario_Catulo_p156_l23"> (coss. <date
-								when="-0102">B.C. 102</date>); of these, Marius was renowned for his
+						<seg type="comment" xml:id="Mario_Catulo_p156_l23"> (coss. <date when="-0102">B.C. 102</date>); of these, Marius was renowned for his
 							exploits, while Catulus was a good officer, and also a man of culture. </seg>
 					</p>
-					<milestone unit="page_line" n="p156_l25" />
+					<milestone unit="page_line" n="p156_l25"/>
 					<p>
 						<seg type="lemma" ana="#nactus_est_p156_l25">nactus est
 						</seg>
@@ -515,7 +501,7 @@
 							that one of them</gloss>, etc. This would not only furnish him with
 							themes for his poetry but insure appreciation of his genius. </seg>
 					</p>
-					<milestone unit="page_line" n="p156_l27" />
+					<milestone unit="page_line" n="p156_l27"/>
 					<p>
 						<seg type="lemma" ana="#Luculli_p156_l27">Luculli
 						</seg>
@@ -524,7 +510,7 @@
 							both of them belonged to the highest ranks of the aristocracy, and were
 							men of distinguished taste and culture. </seg>
 					</p>
-					<milestone unit="page_line" n="p156_l29" />
+					<milestone unit="page_line" n="p156_l29"/>
 					<p>
 						<seg type="lemma" ana="#ingeni_p156_l29">ingeni
 						</seg>
@@ -532,7 +518,7 @@
 							understood <foreign xml:lang="lat">erat</foreign>: <gloss>this
 								was</gloss> [a proof] <gloss>not only of his genius</gloss>, etc. </seg>
 					</p>
-					<milestone unit="page_line" n="p156_l30" />
+					<milestone unit="page_line" n="p156_l30"/>
 					<p>
 						<seg type="lemma" ana="#ut_esset_p156_l30">ut . . . esset
 						</seg>
@@ -543,7 +529,7 @@
 						<seg type="comment" xml:id="hoc_p156_l30">
 							(l.29). </seg>
 					</p>
-					<milestone unit="page_line" n="p157_l1" />
+					<milestone unit="page_line" n="p157_l1"/>
 				</div>
 				<div type="section" n="6" corresp="urn:cts:latinLit:phi0474.phi016:6">
 					<p>
@@ -561,18 +547,16 @@
 						</seg>
 						<seg type="comment" xml:id="Metello_Numidico_p157_l1">: the most
 							distinguished member of this family. He was predecessor of Marius in the
-							war against Jugurtha, and from this service in Numidia received his <foreign
-								xml:lang="lat">agnomen</foreign>. </seg>
+							war against Jugurtha, and from this service in Numidia received his <foreign xml:lang="lat">agnomen</foreign>. </seg>
 					</p>
-					<milestone unit="page_line" n="p157_l2" />
+					<milestone unit="page_line" n="p157_l2"/>
 					<p>
 						<seg type="lemma" ana="#Aemilio_p157_l2">Aemilio
 						</seg>
 						<seg type="comment" xml:id="Aemilio_p157_l2">, i.e. M. Aemilius Scaurus
-							(cos. <date when="-0115">B.C. 115</date>), for many years <foreign
-								xml:lang="lat">princeps senatus</foreign>. </seg>
+							(cos. <date when="-0115">B.C. 115</date>), for many years <foreign xml:lang="lat">princeps senatus</foreign>. </seg>
 					</p>
-					<milestone unit="page_line" n="p157_l3" />
+					<milestone unit="page_line" n="p157_l3"/>
 					<p>
 						<seg type="lemma" ana="#Catulo_p157_l3">Catulo
 						</seg>
@@ -583,24 +567,21 @@
 						<seg type="lemma" ana="#L_Crasso_p157_l3">L. Crasso
 						</seg>
 						<seg type="comment" xml:id="L_Crasso_p157_l3">: the most distinguished
-							orator of his time, a man of genius and culture (see Introd., <ref
-								n="intro. 2">ch. ii, p. xxxiv</ref>); he died <date when="-0091">B.C.
+							orator of his time, a man of genius and culture (see Introd., <ref n="intro. 2">ch. ii, p. xxxiv</ref>); he died <date when="-0091">B.C.
 							91</date>. </seg>
 					</p>
-					<milestone unit="page_line" n="p157_l4" />
+					<milestone unit="page_line" n="p157_l4"/>
 					<p>
 						<seg type="lemma" ana="#Drusum_p157_l4">Drusum
 						</seg>
-						<seg type="comment" xml:id="Drusum_p157_l4"> (M. Livius), tribune <date
-								when="-0091">B.C. 91</date>, a distinguished orator and statesman,
+						<seg type="comment" xml:id="Drusum_p157_l4"> (M. Livius), tribune <date when="-0091">B.C. 91</date>, a distinguished orator and statesman,
 							who lost his life in a vain attempt to reconcile the aristocratic and
 							democratic factions in the republic. </seg>
 					</p>
 					<p>
 						<seg type="lemma" ana="#Octavios_p157_l4">Octavios
 						</seg>
-						<seg type="comment" xml:id="Octavios_p157_l4">: see Cat. 3, sect. <ref
-								n="Cic. Catil. 3.24">24</ref>. </seg>
+						<seg type="comment" xml:id="Octavios_p157_l4">: see Cat. 3, sect. <ref n="Cic. Catil. 3.24">24</ref>. </seg>
 					</p>
 					<p>
 						<seg type="lemma" ana="#Catonem_p157_l4">Catonem
@@ -608,7 +589,7 @@
 						<seg type="comment" xml:id="Catonem_p157_l4">:
 							probably the father of the famous Cato of Utica is meant. </seg>
 					</p>
-					<milestone unit="page_line" n="p157_l5" />
+					<milestone unit="page_line" n="p157_l5"/>
 					<p>
 						<seg type="lemma" ana="#Hortensiorum_p157_l5">Hortensiorum
 						</seg>
@@ -616,14 +597,14 @@
 							the most eminent of these was Q. Hortensius, the rival of Cicero and his
 							opponent in the case of Verres. </seg>
 					</p>
-					<milestone unit="page_line" n="p157_l8" />
+					<milestone unit="page_line" n="p157_l8"/>
 					<p>
 						<seg type="lemma" ana="#si_forte_p157_l8">si qui forte
 						</seg>
 						<seg type="comment" xml:id="si_forte_p157_l8"> , <gloss>those (if there were
 							any) who</gloss>, etc. </seg>
 					</p>
-					<milestone unit="page_line" n="p157_l11" />
+					<milestone unit="page_line" n="p157_l11"/>
 					<p>
 						<seg type="lemma" ana="#Heracliam_p157_l11">Heracliam
 						</seg>
@@ -649,12 +630,11 @@
 						cannot be shaken; the testimony of the census is unnecessary. No further
 						argument is needed; the case is closed.
 					</p>
-					<milestone unit="page_line" n="p157_l15" />
+					<milestone unit="page_line" n="p157_l15"/>
 					<p>
 						<seg type="lemma" ana="#Silvani_lege_p157_l15">Silvani lege
 						</seg>
-						<seg type="comment" xml:id="Silvani_lege_p157_l15">, etc., i.e. the <foreign
-								xml:lang="lat">Lex Plautia-Papiria</foreign>, of the tribunes M.
+						<seg type="comment" xml:id="Silvani_lege_p157_l15">, etc., i.e. the <foreign xml:lang="lat">Lex Plautia-Papiria</foreign>, of the tribunes M.
 							Plautius Silvanus and C. Papirius Carbo (not to be confounded with his
 							infamous cousin Cneius, the Marian leader after the death of Cinna),
 							extended the Roman citizenship to all Italian communities which had not
@@ -681,14 +661,14 @@
 						<seg type="comment" xml:id="data_est_p157_l15">; see § <ref n="AG 592">592</ref>,
 							2 (341, c) ; G. 663, 2, b; H.-B. 535, I, a. </seg>
 					</p>
-					<milestone unit="page_line" n="p157_l18" />
+					<milestone unit="page_line" n="p157_l18"/>
 					<p>
 						<seg type="lemma" ana="#essent_professi_p157_l18">essent professi
 						</seg>
 						<seg type="comment" xml:id="essent_professi_p157_l18"> , <gloss>should have
 							declared their intention</gloss>. </seg>
 					</p>
-					<milestone unit="page_line" n="p157_l19" />
+					<milestone unit="page_line" n="p157_l19"/>
 					<p>
 						<seg type="lemma" ana="#Q_Metellum_p157_l19">Q. Metellum
 						</seg>
@@ -699,21 +679,21 @@
 					</p>
 				</div>
 				<div type="section" n="8" corresp="urn:cts:latinLit:phi0474.phi016:8">
-					<milestone unit="page_line" n="p157_l22" />
+					<milestone unit="page_line" n="p157_l22"/>
 					<p>
 						<seg type="lemma" ana="#Grati_p157_l22">Grati
 						</seg>
 						<seg type="comment" xml:id="Grati_p157_l22">,
 							the complainant (see Introd., p.154 of text). </seg>
 					</p>
-					<milestone unit="page_line" n="p158_l1" />
+					<milestone unit="page_line" n="p158_l1"/>
 					<p>
 						<seg type="lemma" ana="#religione_p158_l1">religione
 						</seg>
 						<seg type="comment" xml:id="religione_p158_l1"> , <gloss>conscientiousness</gloss>
 							. </seg>
 					</p>
-					<milestone unit="page_line" n="p158_l6" />
+					<milestone unit="page_line" n="p158_l6"/>
 					<p>
 						<seg type="lemma" ana="#desideras_p158_l6">desideras
 						</seg>
@@ -723,11 +703,10 @@
 					<p>
 						<seg type="lemma" ana="#Italico_bello_p158_l6">Italico bello
 						</seg>
-						<seg type="comment" xml:id="Italico_bello_p158_l6">, i.e. the Social War: § <ref
-								n="AG 424">424</ref>, d (259, a); G. 394, R.; H. 486 (429); H-B.
+						<seg type="comment" xml:id="Italico_bello_p158_l6">, i.e. the Social War: § <ref n="AG 424">424</ref>, d (259, a); G. 394, R.; H. 486 (429); H-B.
 							439, a, 3. </seg>
 					</p>
-					<milestone unit="page_line" n="p158_l11" />
+					<milestone unit="page_line" n="p158_l11"/>
 					<p>
 						<seg type="lemma" ana="#municipi_p158_l11">municipi
 						</seg>
@@ -736,7 +715,7 @@
 							had become Roman <foreign xml:lang="lat">municipia</foreign> (see
 							Introd., p. liii). </seg>
 					</p>
-					<milestone unit="page_line" n="p158_l12" />
+					<milestone unit="page_line" n="p158_l12"/>
 					<p>
 						<seg type="lemma" ana="#idem_p158_l12">idem
 						</seg>
@@ -746,12 +725,11 @@
 					<p> </p>
 				</div>
 				<div type="section" n="9" corresp="urn:cts:latinLit:phi0474.phi016:9">
-					<milestone unit="page_line" n="p158_15" />
+					<milestone unit="page_line" n="p158_15"/>
 					<p>In sect. <ref n="Cic. Arch. 8">8</ref> Cicero shows that Archias was a
 						citizen of Heraclia and so came under the first requirement of the law; in
 						sect. <ref n="Cic. Arch. 9">9</ref> he claims that his client had also
-						complied with the other two requirements (<seg type="lemma"
-							ana="#domicilium_p158_15">domicilium
+						complied with the other two requirements (<seg type="lemma" ana="#domicilium_p158_15">domicilium
 						</seg>
 						<seg type="comment" xml:id="domicilium_p158_15">
 							and </seg>
@@ -766,21 +744,21 @@
 						<seg type="comment" xml:id="civitatem_datam_p158_15">,
 							i.e. by the law before cited. </seg>
 					</p>
-					<milestone unit="page_line" n="p158_l17" />
+					<milestone unit="page_line" n="p158_l17"/>
 					<p>
 						<seg type="lemma" ana="#professione_p158_l17">professione
 						</seg>
 						<seg type="comment" xml:id="professione_p158_l17"> , <gloss>list of
 							declarations</gloss>. </seg>
 					</p>
-					<milestone unit="page_line" n="p158_l18" />
+					<milestone unit="page_line" n="p158_l18"/>
 					<p>
 						<seg type="lemma" ana="#conlegio_p158_l18">conlegio
 						</seg>
 						<seg type="comment" xml:id="conlegio_p158_l18">:
 							the praetors, when regarded as a whole, could be spoken of as a "board." </seg>
 					</p>
-					<milestone unit="page_line" n="p158_l19" />
+					<milestone unit="page_line" n="p158_l19"/>
 					<p>
 						<seg type="lemma" ana="#cum_p158_l19">cum
 						</seg>
@@ -791,25 +769,23 @@
 						<seg type="lemma" ana="#Appi_p158_l19">Appi
 						</seg>
 						<seg type="comment" xml:id="Appi_p158_l19">, i.e. Appius Claudius, husband
-							of Caecilia (the friend of Roscius: see Rosc. Am., sect. <ref
-								n="Cic. S. Rosc. 50">50</ref>) and father of the infamous Clodius. </seg>
+							of Caecilia (the friend of Roscius: see Rosc. Am., sect. <ref n="Cic. S. Rosc. 50">50</ref>) and father of the infamous Clodius. </seg>
 					</p>
-					<milestone unit="page_line" n="p158_l20" />
+					<milestone unit="page_line" n="p158_l20"/>
 					<p>
 						<seg type="lemma" ana="#Gabini_p158_l20">Gabini
 						</seg>
 						<seg type="comment" xml:id="Gabini_p158_l20">:
 							see Introd. to Pompey's Military Command. </seg>
 					</p>
-					<milestone unit="page_line" n="p158_l21" />
+					<milestone unit="page_line" n="p158_l21"/>
 					<p>
 						<seg type="lemma" ana="#damnationem_p158_l21">damnationem
 						</seg>
-						<seg type="comment" xml:id="damnationem_p158_l21">: he was condemned, <date
-								when="-0054">B.C. 54</date>, for extortion on complaint of the
+						<seg type="comment" xml:id="damnationem_p158_l21">: he was condemned, <date when="-0054">B.C. 54</date>, for extortion on complaint of the
 							Achaeans. </seg>
 					</p>
-					<milestone unit="page_line" n="p158_l23" />
+					<milestone unit="page_line" n="p158_l23"/>
 					<p>
 						<seg type="lemma" ana="#L_Lentulum_p158_l23">L. Lentulum
 						</seg>
@@ -820,7 +796,7 @@
 					</p>
 				</div>
 				<div type="section" n="10" corresp="urn:cts:latinLit:phi0474.phi016:10">
-					<milestone unit="page_line" n="p158_l29" />
+					<milestone unit="page_line" n="p158_l29"/>
 					<p>
 						<seg type="lemma" ana="#multis_p158_l29">multis
 						</seg>
@@ -844,14 +820,14 @@
 						<seg type="comment" xml:id="praeditis_p158_l29_2">
 							. </seg>
 					</p>
-					<milestone unit="page_line" n="p158_l30" />
+					<milestone unit="page_line" n="p158_l30"/>
 					<p>
 						<seg type="lemma" ana="#Graecia_p158_l30">Graecia
 						</seg>
 						<seg type="comment" xml:id="Graecia_p158_l30">,
 							i.e. Magna Graecia, the Greek cities of Italy. </seg>
 					</p>
-					<milestone unit="page_line" n="p158_l31" />
+					<milestone unit="page_line" n="p158_l31"/>
 					<p>
 						<seg type="lemma" ana="#credo_p158_l31">credo
 						</seg>
@@ -864,7 +840,7 @@
 						<seg type="comment" xml:id="Locrensis_p158_l31">:
 							Locri Epizephyrii, a Greek city near Rhegium. </seg>
 					</p>
-					<milestone unit="page_line" n="p158_l32" />
+					<milestone unit="page_line" n="p158_l32"/>
 					<p>
 						<seg type="lemma" ana="#quod_p158_l32">quod
 						</seg>
@@ -879,7 +855,7 @@
 						<seg type="comment" xml:id="largiri_p158_l32">
 							understood. </seg>
 					</p>
-					<milestone unit="page_line" n="p159_l1" />
+					<milestone unit="page_line" n="p159_l1"/>
 					<p>
 						<seg type="lemma" ana="#ingeni_p159_l1">ingeni
 						</seg>
@@ -894,21 +870,20 @@
 						<seg type="comment" xml:id="praedito_p159_l1">
 							. </seg>
 					</p>
-					<milestone unit="page_line" n="p159_l2" />
+					<milestone unit="page_line" n="p159_l2"/>
 					<p>
 						<seg type="lemma" ana="#civitatem_datam_p159_l2">civitatem datam
 						</seg>
-						<seg type="comment" xml:id="civitatem_datam_p159_l2">, i.e. by the <foreign
-								xml:lang="lat">Lex Plautia-Papiria</foreign>. </seg>
+						<seg type="comment" xml:id="civitatem_datam_p159_l2">, i.e. by the <foreign xml:lang="lat">Lex Plautia-Papiria</foreign>. </seg>
 					</p>
-					<milestone unit="page_line" n="p159_l3" />
+					<milestone unit="page_line" n="p159_l3"/>
 					<p>
 						<seg type="lemma" ana="#legem_Papiam_p159_l3">legem Papiam
 						</seg>
 						<seg type="comment" xml:id="legem_Papiam_p159_l3">:
 							see Introd. to the oration. </seg>
 					</p>
-					<milestone unit="page_line" n="p159_l4" />
+					<milestone unit="page_line" n="p159_l4"/>
 					<p>
 						<seg type="lemma" ana="#illis_p159_l4">illis
 						</seg>
@@ -917,7 +892,7 @@
 					</p>
 				</div>
 				<div type="section" n="11" corresp="urn:cts:latinLit:phi0474.phi016:11">
-					<milestone unit="page_line" n="p159_l6" />
+					<milestone unit="page_line" n="p159_l6"/>
 					<p>
 						<seg type="lemma" ana="#census_p159_l6">census
 						</seg>
@@ -939,7 +914,7 @@
 						<seg type="comment" xml:id="est_obscurum_p159_l6"> (ironical), <gloss>it is
 							not generally known</gloss>. </seg>
 					</p>
-					<milestone unit="page_line" n="p159_l7" />
+					<milestone unit="page_line" n="p159_l7"/>
 					<p>
 						<seg type="lemma" ana="#proximis_p159_l7">proximis
 						</seg>
@@ -954,7 +929,7 @@
 							could at any moment have procured him the citizenship if he had not
 							already possessed it. </seg>
 					</p>
-					<milestone unit="page_line" n="p159_l8" />
+					<milestone unit="page_line" n="p159_l8"/>
 					<p>
 						<seg type="lemma" ana="#apud_exercitum_p159_l8">apud exercitum
 						</seg>
@@ -964,14 +939,13 @@
 					<p>
 						<seg type="lemma" ana="#superioribus_p159_l8">superioribus
 						</seg>
-						<seg type="comment" xml:id="superioribus_p159_l8">, sc. <foreign
-								xml:lang="lat">censoribus</foreign>. New censors were regularly
+						<seg type="comment" xml:id="superioribus_p159_l8">, sc. <foreign xml:lang="lat">censoribus</foreign>. New censors were regularly
 							appointed every five years; those here referred to were Q. Marcius
 							Philippus and M. Perperna (<date when="-0086">B.C. 86</date>). In the
 							present instance the succession had been interfered with by Sulla, but
 							restored in <date when="-0070">B.C. 70</date>. </seg>
 					</p>
-					<milestone unit="page_line" n="p159_l9" />
+					<milestone unit="page_line" n="p159_l9"/>
 					<p>
 						<seg type="lemma" ana="#in_Asia_p159_l9">in Asia
 						</seg>
@@ -987,12 +961,11 @@
 								Plautia-Papiria</foreign>: these were L. Julius Caesar and P.
 							Crassus (<date when="-0089">B.C. 89</date>). </seg>
 					</p>
-					<milestone unit="page_line" n="p159_l14" />
+					<milestone unit="page_line" n="p159_l14"/>
 					<p>
 						<seg type="lemma" ana="#esse_versatum_p159_l14">esse versatum
 						</seg>
-						<seg type="comment" xml:id="esse_versatum_p159_l14"> (sc. <foreign
-								xml:lang="lat">eum</foreign>), <gloss>had availed himself
+						<seg type="comment" xml:id="esse_versatum_p159_l14"> (sc. <foreign xml:lang="lat">eum</foreign>), <gloss>had availed himself
 								of</gloss>: this clause is the obj. of <foreign xml:lang="lat">
 							criminaris</foreign>. </seg>
 					</p>
@@ -1002,7 +975,7 @@
 						<seg type="comment" xml:id="testamentum_p159_l14">,
 							etc., acts which no foreigner could do. </seg>
 					</p>
-					<milestone unit="page_line" n="p159_l16" />
+					<milestone unit="page_line" n="p159_l16"/>
 					<p>
 						<seg type="lemma" ana="#in_beneficiis_p159_l16">in beneficiis
 						</seg>
@@ -1010,7 +983,7 @@
 							was reported for a reward from the state</gloss> (i.e. on the ground of
 							some special merit); this, of course, implied citizenship. </seg>
 					</p>
-					<milestone unit="page_line" n="p159_l18" />
+					<milestone unit="page_line" n="p159_l18"/>
 					<p>
 						<seg type="lemma" ana="#suo_p159_l18">suo
 						</seg>
@@ -1032,7 +1005,7 @@
 						strength. Hence all famous men have been devoted to letters. The dignity
 						and delight of liberal study.
 					</p>
-					<milestone unit="page_line" n="p159_l20" />
+					<milestone unit="page_line" n="p159_l20"/>
 					<p>
 						<seg type="lemma" ana="#ubi_p159_l20">ubi
 						</seg>
@@ -1043,7 +1016,7 @@
 						<seg type="comment" xml:id="_reficiatur_p159_l20">,
 							rel. clause of purpose. </seg>
 					</p>
-					<milestone unit="page_line" n="p159_l22" />
+					<milestone unit="page_line" n="p159_l22"/>
 					<p>
 						<seg type="lemma" ana="#suppetere_p159_l22">suppetere
 						</seg>
@@ -1059,13 +1032,13 @@
 						<seg type="comment" xml:id="posse_p159_l22"> (with a fut. force), <gloss>should
 							be able</gloss>. </seg>
 					</p>
-					<milestone unit="page_line" n="p159_l24" />
+					<milestone unit="page_line" n="p159_l24"/>
 					<p>
 						<seg type="lemma" ana="#contentionem_p159_l24">contentionem
 						</seg>
 						<seg type="comment" xml:id="contentionem_p159_l24"> , <gloss>strain</gloss>. </seg>
 					</p>
-					<milestone unit="page_line" n="p159_l25" />
+					<milestone unit="page_line" n="p159_l25"/>
 					<p>
 						<seg type="lemma" ana="#ego_p159_l25">ego
 						</seg>
@@ -1077,7 +1050,7 @@
 							847</ref> ff.). Hence it was important for Cicero to show that
 							literature was of practical value to the man of affairs. </seg>
 					</p>
-					<milestone unit="page_line" n="p159_l26" />
+					<milestone unit="page_line" n="p159_l26"/>
 					<p>
 						<seg type="lemma" ana="#his_studiis_p159_l26">his studiis
 						</seg>
@@ -1085,14 +1058,14 @@
 							the study of letters in general, including all varieties of literature,
 							poetry as well as prose. </seg>
 					</p>
-					<milestone unit="page_line" n="p159_l30" />
+					<milestone unit="page_line" n="p159_l30"/>
 					<p>
 						<seg type="lemma" ana="#nullius_tempore_p159_l30">nullius tempore
 						</seg>
 						<seg type="comment" xml:id="nullius_tempore_p159_l30">, etc., <gloss>the
 							necessities or interests of no one</gloss> (i.e. as a client). </seg>
 					</p>
-					<milestone unit="page_line" n="p160_l1" />
+					<milestone unit="page_line" n="p160_l1"/>
 				</div>
 				<div type="section" n="13" corresp="urn:cts:latinLit:phi0474.phi016:13">
 					<p>
@@ -1105,14 +1078,14 @@
 						<seg type="comment" xml:id="conceditur_p160_l1">
 							(l. 4). </seg>
 					</p>
-					<milestone unit="page_line" n="p160_l3" />
+					<milestone unit="page_line" n="p160_l3"/>
 					<p>
 						<seg type="lemma" ana="#ad_requiem_p160_l3">ad ipsam requiem
 						</seg>
 						<seg type="comment" xml:id="ad_requiem_p160_l3"> , <gloss>even to repose</gloss>
 							. </seg>
 					</p>
-					<milestone unit="page_line" n="p160_l4" />
+					<milestone unit="page_line" n="p160_l4"/>
 					<p>
 						<seg type="lemma" ana="#temporum_p160_l4">temporum
 						</seg>
@@ -1151,7 +1124,7 @@
 						<seg type="comment" xml:id="a_idleness_p160_l4">:
 							we should refer to "late dinners." </seg>
 					</p>
-					<milestone unit="page_line" n="p160_l8" />
+					<milestone unit="page_line" n="p160_l8"/>
 					<p>
 						<seg type="lemma" ana="#oratio_facultas_p160_l8">oratio et facultas
 						</seg>
@@ -1164,16 +1137,15 @@
 						<seg type="comment" xml:id="quantacumque_p160_l8">, etc., i.e. <gloss>such
 								as I have</gloss> (a modest disclaimer). </seg>
 					</p>
-					<milestone unit="page_line" n="p160_l9" />
+					<milestone unit="page_line" n="p160_l9"/>
 					<p>
 						<seg type="lemma" ana="#periculis_p160_l9">periculis
 						</seg>
 						<seg type="comment" xml:id="periculis_p160_l9">: Cicero prided himself on
-							defending cases rather than acting for the prosecution (cf. <foreign
-								xml:lang="lat">amicorum temporibus</foreign>, etc., Pompey's
+							defending cases rather than acting for the prosecution (cf. <foreign xml:lang="lat">amicorum temporibus</foreign>, etc., Pompey's
 							Military Command, sect. <ref n="Cic. Man. 1">1</ref>). </seg>
 					</p>
-					<milestone unit="page_line" n="p160_l10" />
+					<milestone unit="page_line" n="p160_l10"/>
 					<p>
 						<seg type="lemma" ana="#quae_p160_l10">quae
 						</seg>
@@ -1194,7 +1166,7 @@
 						<seg type="comment" xml:id="praecepta_p160_l10">
 							mentioned below. </seg>
 					</p>
-					<milestone unit="page_line" n="p160_l12" />
+					<milestone unit="page_line" n="p160_l12"/>
 				</div>
 				<div type="section" n="14" corresp="urn:cts:latinLit:phi0474.phi016:14">
 					<p>
@@ -1209,7 +1181,7 @@
 						<seg type="comment" xml:id="multis_litteris_p160_l12"> , <gloss>wide reading</gloss>
 							. </seg>
 					</p>
-					<milestone unit="page_line" n="p160_l13" />
+					<milestone unit="page_line" n="p160_l13"/>
 					<p>
 						<seg type="lemma" ana="#nihil_esse_p160_l13">nihil esse
 						</seg>
@@ -1219,7 +1191,7 @@
 							Roman they took the place which with us belongs to the ethical teachings
 							of sacred literature. </seg>
 					</p>
-					<milestone unit="page_line" n="p160_l16" />
+					<milestone unit="page_line" n="p160_l16"/>
 					<p>
 						<seg type="lemma" ana="#parvi_p160_l16">parvi
 						</seg>
@@ -1227,7 +1199,7 @@
 								slight account</gloss>: § <ref n="AG 417">417</ref> (252, a); B.
 							169,4; G. 379, 380, 1; H. 448 (404); H.-B. 356, 1. </seg>
 					</p>
-					<milestone unit="page_line" n="p160_l19" />
+					<milestone unit="page_line" n="p160_l19"/>
 					<p>
 						<seg type="lemma" ana="#exemplorum_p160_l19">exemplorum
 						</seg>
@@ -1236,14 +1208,14 @@
 							education of the ancients consisted largely in the study of the lives of
 							eminent men of past ages. </seg>
 					</p>
-					<milestone unit="page_line" n="p160_l21" />
+					<milestone unit="page_line" n="p160_l21"/>
 					<p>
 						<seg type="lemma" ana="#accederet_p160_l21">accederet
 						</seg>
 						<seg type="comment" xml:id="accederet_p160_l21"> , <gloss>were thrown upon
 							them</gloss>.. </seg>
 					</p>
-					<milestone unit="page_line" n="p160_l27" />
+					<milestone unit="page_line" n="p160_l27"/>
 				</div>
 				<div type="section" n="15" corresp="urn:cts:latinLit:phi0474.phi016:15">
 					<p>Observe the attitude of the Romans toward literature, which they valued
@@ -1251,7 +1223,7 @@
 						Greeks, for its own sake or as a means of affording aesthetic pleasure. </p>
 				</div>
 				<div type="section" n="16" corresp="urn:cts:latinLit:phi0474.phi016:16">
-					<milestone unit="page_line" n="p161_l9" />
+					<milestone unit="page_line" n="p161_l9"/>
 					<p>
 						<seg type="lemma" ana="#ex_hoc_p161_l9">ex hoc
 						</seg>
@@ -1261,7 +1233,7 @@
 							in theory opposed to this tendency on account of its imagined ill
 							effects; hence the rather apologetic tone in which Cicero speaks of him. </seg>
 					</p>
-					<milestone unit="page_line" n="p161_l10" />
+					<milestone unit="page_line" n="p161_l10"/>
 					<p>
 						<seg type="lemma" ana="#Africanum_p161_l10">Africanum
 						</seg>
@@ -1273,8 +1245,7 @@
 						</seg>
 						<seg type="comment" xml:id="Laelium_p161_l10">: the younger Laelius
 							(surnamed <foreign xml:lang="lat">Sapiens</foreign>), whose friendship
-							with Scipio Aemilianus forms the groundwork of Cicero's famous treatise <title
-								xml:lang="lat">De Amicitia</title>. </seg>
+							with Scipio Aemilianus forms the groundwork of Cicero's famous treatise <title xml:lang="lat">De Amicitia</title>. </seg>
 					</p>
 					<p>
 						<seg type="lemma" ana="#Furium_p161_l10">Furium
@@ -1283,7 +1254,7 @@
 						Philus (cos. <date when="-0136">B.C. 136</date>), a patron of literature. </seg>
 						These three men belonged to the so-called Scipionic Circle, which was
 						especially influential in the introduction of Greek culture. </p>
-					<milestone unit="page_line" n="p161_l12" />
+					<milestone unit="page_line" n="p161_l12"/>
 					<p>
 						<seg type="lemma" ana="#Catonem_p161_l12">Catonem
 						</seg>
@@ -1294,7 +1265,7 @@
 							blunt manners. He was a distinguished antiquarian, and wrote books on
 							antiquities and agriculture. </seg>
 					</p>
-					<milestone unit="page_line" n="p161_l13" />
+					<milestone unit="page_line" n="p161_l13"/>
 					<p>
 						<seg type="lemma" ana="#senem_p161_l13">senem
 						</seg>
@@ -1310,14 +1281,14 @@
 							means of mental refreshment and diversion. The passage is a very famous
 							tribute to liberal studies. </seg>
 					</p>
-					<milestone unit="page_line" n="p161_l18" />
+					<milestone unit="page_line" n="p161_l18"/>
 					<p>
 						<seg type="lemma" ana="#ceterae_p161_l18">ceterae
 						</seg>
 						<seg type="comment" xml:id="ceterae_p161_l18">, sc. <foreign xml:lang="lat">animi
 							adversiones</foreign> (from 1.17). </seg>
 					</p>
-					<milestone unit="page_line" n="p161_l21" />
+					<milestone unit="page_line" n="p161_l21"/>
 					<p>
 						<seg type="lemma" ana="#adversis_p161_l21">adversis
 						</seg>
@@ -1334,7 +1305,7 @@
 					</p>
 				</div>
 				<div type="section" n="17" corresp="urn:cts:latinLit:phi0474.phi016:17">
-					<milestone unit="page_line" n="p161_l25" />
+					<milestone unit="page_line" n="p161_l25"/>
 					<p>
 						<seg type="lemma" ana="#deberemus_p161_l25">deberemus
 						</seg>
@@ -1342,14 +1313,14 @@
 							c, N.1 (308, C, N.1); B. 304, 3, a, N. ; G. 597, R.3, b; Cf. H. 583
 							(511, I, N.3) ; H.-B. 582, 3, a. </seg>
 					</p>
-					<milestone unit="page_line" n="p161_l26" />
+					<milestone unit="page_line" n="p161_l26"/>
 					<p>
 						<seg type="lemma" ana="#videremus_p161_l26">videremus
 						</seg>
 						<seg type="comment" xml:id="videremus_p161_l26">: subj. because an integral
 							part of the cont. to fact <foreign xml:lang="lat">apodosis</foreign>. </seg>
 					</p>
-					<milestone unit="page_line" n="p161_l27" />
+					<milestone unit="page_line" n="p161_l27"/>
 					<p>
 						<seg type="lemma" ana="#Rosci_p161_l27">Rosci
 						</seg>
@@ -1357,7 +1328,7 @@
 							Q. Roscius, the most eminent actor of his time, defended by Cicero in a
 							speech which is still extant. </seg>
 					</p>
-					<milestone unit="page_line" n="p161_l30" />
+					<milestone unit="page_line" n="p161_l30"/>
 					<p>
 						<seg type="lemma" ana="#corporis_p161_l30">corporis
 						</seg>
@@ -1370,7 +1341,7 @@
 							compared with the delivery and facial expression than is the case on the
 							modern stage. </seg>
 					</p>
-					<milestone unit="page_line" n="p162_l2" />
+					<milestone unit="page_line" n="p162_l2"/>
 				</div>
 				<div type="section" n="18" corresp="urn:cts:latinLit:phi0474.phi016:18">
 					<p>
@@ -1388,10 +1359,9 @@
 							illustrating the </seg>
 						<seg type="lemma" ana="#celeritas_p162_l2">celeritas
 						</seg>
-						<seg type="comment" xml:id="celeritas_p162_l2"> mentioned in § <ref
-								n="Cic. Arch. 17">17</ref>. </seg>
+						<seg type="comment" xml:id="celeritas_p162_l2"> mentioned in § <ref n="Cic. Arch. 17">17</ref>. </seg>
 					</p>
-					<milestone unit="page_line" n="p162_l5" />
+					<milestone unit="page_line" n="p162_l5"/>
 					<p>
 						<seg type="lemma" ana="#revocatum_p162_l5">revocatum
 						</seg>
@@ -1402,14 +1372,14 @@
 						<seg type="comment" xml:id="dicere_p162_l5">. The <foreign xml:lang="fra">
 							encore</foreign> was a common Roman practice, as with us. </seg>
 					</p>
-					<milestone unit="page_line" n="p162_l10" />
+					<milestone unit="page_line" n="p162_l10"/>
 					<p>
 						<seg type="lemma" ana="#sic_p162_l10">sic
 						</seg>
 						<seg type="comment" xml:id="sic_p162_l10">, <gloss>
 								this</gloss> (referring to the indir. disc. that follows). </seg>
 					</p>
-					<milestone unit="page_line" n="p162_l14" />
+					<milestone unit="page_line" n="p162_l14"/>
 					<p>
 						<seg type="lemma" ana="#Ennius_p162_l14">Ennius
 						</seg>
@@ -1419,7 +1389,7 @@
 							Annales</title>, an epic poem upon Roman history, lost except for a few
 							fragments. </seg>
 					</p>
-					<milestone unit="page_line" n="p162_l19" />
+					<milestone unit="page_line" n="p162_l19"/>
 				</div>
 				<div type="section" n="19" corresp="urn:cts:latinLit:phi0474.phi016:19">
 					<p>
@@ -1429,7 +1399,7 @@
 							etc.: alluding to the myths of Orpheus and Arion (see Ovid, Met. 10.3;
 							Fasti, 2. 83-118; Virg., Ecl. 8.56). </seg>
 					</p>
-					<milestone unit="page_line" n="p162_l21" />
+					<milestone unit="page_line" n="p162_l21"/>
 					<p>
 						<seg type="lemma" ana="#Homerum_p162_l21">Homerum
 						</seg>
@@ -1440,15 +1410,14 @@
 							</quote>
 						</seg>
 					</p>
-					<milestone unit="page_line" n="p162_l27" />
+					<milestone unit="page_line" n="p162_l27"/>
 					<p>
 						<seg type="lemma" ana="#olim_p162_l27">olim
 						</seg>
-						<seg type="comment" xml:id="olim_p162_l27">, almost equiv. to an adj.: Cf. § <ref
-								n="AG 321">321</ref>, d (188, e); G. 439, N.4; H. 497, 5 (359, N.4);
+						<seg type="comment" xml:id="olim_p162_l27">, almost equiv. to an adj.: Cf. § <ref n="AG 321">321</ref>, d (188, e); G. 439, N.4; H. 497, 5 (359, N.4);
 							H.-B. 295, C. </seg>
 					</p>
-					<milestone unit="page_line" n="p162_l29" />
+					<milestone unit="page_line" n="p162_l29"/>
 					<p>
 						<seg type="lemma" ana="#Cimbricas_res_p162_l29">Cimbricas res
 						</seg>
@@ -1457,7 +1426,7 @@
 							Marius (the Teutones, <date when="-0102">B.C. 102</date>; the Cimbri,
 							101). </seg>
 					</p>
-					<milestone unit="page_line" n="p162_l30" />
+					<milestone unit="page_line" n="p162_l30"/>
 					<p>
 						<seg type="lemma" ana="#durior_p162_l30">durior
 						</seg>
@@ -1469,7 +1438,7 @@
 					</p>
 				</div>
 				<div type="section" n="20" corresp="urn:cts:latinLit:phi0474.phi016:20">
-					<milestone unit="page_line" n="p163_l3" />
+					<milestone unit="page_line" n="p163_l3"/>
 					<p>
 						<seg type="lemma" ana="#Themistoclem_p163_l3">Themistoclem
 						</seg>
@@ -1478,7 +1447,7 @@
 							Persian invasion (<date when="-0480">B.C. 480</date>) and afterwards, by
 							his skillful policy, raised Athens to its greatest height of power. </seg>
 					</p>
-					<milestone unit="page_line" n="p163_l8" />
+					<milestone unit="page_line" n="p163_l8"/>
 				</div>
 				<div type="section" n="21" corresp="urn:cts:latinLit:phi0474.phi016:21">
 					<p>
@@ -1488,21 +1457,21 @@
 						<seg type="comment" xml:id="For_section_p163_l8">,
 							see Pompey's Military Command </seg>
 					</p>
-					<milestone unit="page_line" n="p163_l14" />
+					<milestone unit="page_line" n="p163_l14"/>
 					<p>
 						<seg type="lemma" ana="#natura_regione_p163_l14">natura et regione
 						</seg>
 						<seg type="comment" xml:id="natura_regione_p163_l14">:
 							hendiadys. </seg>
 					</p>
-					<milestone unit="page_line" n="p163_l17" />
+					<milestone unit="page_line" n="p163_l17"/>
 					<p>
 						<seg type="lemma" ana="#ejusdem_p163_l17">ejusdem
 						</seg>
 						<seg type="comment" xml:id="ejusdem_p163_l17">,
 							i.e. Lucullus. </seg>
 					</p>
-					<milestone unit="page_line" n="p163_l19" />
+					<milestone unit="page_line" n="p163_l19"/>
 					<p>
 						<seg type="lemma" ana="#nostra_p163_l19">nostra
 						</seg>
@@ -1514,7 +1483,7 @@
 							Cicero means that these exploits, since they have been immortalized by
 							Archias, will always remain the glory of the Roman people. </seg>
 					</p>
-					<milestone unit="page_line" n="p164_l3" />
+					<milestone unit="page_line" n="p164_l3"/>
 					<p>
 						<seg type="lemma" ana="#quae_p164_l3">quae
 						</seg>
@@ -1532,7 +1501,7 @@
 						</seg>
 						<seg type="comment" xml:id="eis_p164_l3">. </seg>
 					</p>
-					<milestone unit="page_line" n="p164_l4" />
+					<milestone unit="page_line" n="p164_l4"/>
 				</div>
 				<div type="section" n="22" corresp="urn:cts:latinLit:phi0474.phi016:22">
 					<p>
@@ -1541,7 +1510,7 @@
 						<seg type="comment" xml:id="Africano_superiori_p164_l4">:
 							the conqueror of Hannibal. </seg>
 					</p>
-					<milestone unit="page_line" n="p164_l5" />
+					<milestone unit="page_line" n="p164_l5"/>
 					<p>
 						<seg type="lemma" ana="#in_Scipionum_p164_l5">in sepulcro Scipionum
 						</seg>
@@ -1551,15 +1520,14 @@
 							that here referred to. It now stands upon the sarcophagus of Scipio in
 							the Vatican museum (Fig. 42). </seg>
 					</p>
-					<milestone unit="page_line" n="p164_l8" />
+					<milestone unit="page_line" n="p164_l8"/>
 					<p>
 						<seg type="lemma" ana="#hujus_p164_l8">hujus
 						</seg>
-						<seg type="comment" xml:id="hujus_p164_l8">: M. Porcius Cato, later called <foreign
-								xml:lang="lat">Uticensis</foreign>, from his killing himself at
+						<seg type="comment" xml:id="hujus_p164_l8">: M. Porcius Cato, later called <foreign xml:lang="lat">Uticensis</foreign>, from his killing himself at
 							Utica after Caesar's victory. Cato the Censor was his great-grandfather. </seg>
 					</p>
-					<milestone unit="page_line" n="p164_l10" />
+					<milestone unit="page_line" n="p164_l10"/>
 					<p>
 						<seg type="lemma" ana="#Maximi_p164_l10">Maximi
 						</seg>
@@ -1569,19 +1537,18 @@
 								5</ref>); Q. Fulvius Flaccus, a distinguished officer in the same
 							war. </seg>
 					</p>
-					<milestone unit="page_line" n="p164_l11" />
+					<milestone unit="page_line" n="p164_l11"/>
 					<p>
 						<seg type="lemma" ana="#illum_p164_l11">illum
 						</seg>
 						<seg type="comment" xml:id="illum_p164_l11">,
 							i.e. Ennius. </seg>
 					</p>
-					<milestone unit="page_line" n="p164_l13" />
+					<milestone unit="page_line" n="p164_l13"/>
 					<p>
 						<seg type="lemma" ana="#Heracliensem_p164_l13">Heracliensem
 						</seg>
-						<seg type="comment" xml:id="Heracliensem_p164_l13">: Heraclia (see note on <ref
-								n="pl157.11">p. 157, l. 11</ref>), as being an important city, is
+						<seg type="comment" xml:id="Heracliensem_p164_l13">: Heraclia (see note on <ref n="pl157.11">p. 157, l. 11</ref>), as being an important city, is
 							here contrasted with the insignificant Rudiae. </seg>
 					</p>
 					<p>
@@ -1590,7 +1557,7 @@
 						<seg type="comment" xml:id="civitatibus_p164_l13"> . § <ref n="AG 375">375</ref>
 							(232 a), G 354. H. 431, 2 (388, 1); H.-B. 373, 2. </seg>
 					</p>
-					<milestone unit="page_line" n="p164_l18" />
+					<milestone unit="page_line" n="p164_l18"/>
 				</div>
 				<div type="section" n="23" corresp="urn:cts:latinLit:phi0474.phi016:23">
 					<p>
@@ -1600,7 +1567,7 @@
 								read</gloss>. Greek was, in the ancient world, almost the universal
 							language of polite society; cf. the use of French in modern times. </seg>
 					</p>
-					<milestone unit="page_line" n="p164_l21" />
+					<milestone unit="page_line" n="p164_l21"/>
 					<p>
 						<seg type="lemma" ana="#quo_p164_l21">quo
 						</seg>
@@ -1618,15 +1585,14 @@
 						<seg type="comment" xml:id="quo_penetrare_p164_l21">
 							. </seg>
 					</p>
-					<milestone unit="page_line" n="p165_l1" />
+					<milestone unit="page_line" n="p165_l1"/>
 					<p>
 						<seg type="lemma" ana="#populis_p165_l1">populis
 						</seg>
-						<seg type="comment" xml:id="populis_p165_l1">, dat. after <foreign
-								xml:lang="lat">ampla</foreign>, <gloss>a noble thing
+						<seg type="comment" xml:id="populis_p165_l1">, dat. after <foreign xml:lang="lat">ampla</foreign>, <gloss>a noble thing
 								for them</gloss>. </seg>
 					</p>
-					<milestone unit="page_line" n="p165_l2" />
+					<milestone unit="page_line" n="p165_l2"/>
 					<p>
 						<seg type="lemma" ana="#eis_p165_l2">eis
 						</seg>
@@ -1634,7 +1600,7 @@
 							i.e. the individuals by whom these exploits are performed as contrasted
 							with their peoples as a whole. </seg>
 					</p>
-					<milestone unit="page_line" n="p165_l10" />
+					<milestone unit="page_line" n="p165_l10"/>
 				</div>
 				<div type="section" n="24" corresp="urn:cts:latinLit:phi0474.phi016:24">
 					<p>
@@ -1648,7 +1614,7 @@
 							already possessed it. All men thirst for glory, which he can confer.
 							Literature is the most enduring of monuments.
 						</p>
-						<milestone unit="page_line" n="p165_l17" />
+						<milestone unit="page_line" n="p165_l17"/>
 						<p>
 							<seg type="lemma" ana="#esset_p165_l17">esset
 							</seg>
@@ -1658,24 +1624,20 @@
 						<p>
 							<seg type="lemma" ana="#civitate_donaretur_p165_l17">civitate donaretur
 							</seg>
-							<seg type="comment" xml:id="civitate_donaretur_p165_l17">: § <ref
-									n="AG 364">364</ref> (225, d); B.187, i, a; G. 348; H. 426, 6
+							<seg type="comment" xml:id="civitate_donaretur_p165_l17">: § <ref n="AG 364">364</ref> (225, d); B.187, i, a; G. 348; H. 426, 6
 								(384, ii, 2); H.-B. 365, b. </seg>
 						</p>
-						<milestone unit="page_line" n="p165_l18" />
+						<milestone unit="page_line" n="p165_l18"/>
 						<p>
 							<seg type="lemma" ana="#donaret_p165_l18">donaret
 							</seg>
-							<seg type="comment" xml:id="donaret_p165_l18">, sc. <foreign
-									xml:lang="lat">civitate</foreign>. </seg>
+							<seg type="comment" xml:id="donaret_p165_l18">, sc. <foreign xml:lang="lat">civitate</foreign>. </seg>
 						</p>
-						<milestone unit="page_line" n="p165_l19" />
+						<milestone unit="page_line" n="p165_l19"/>
 						<p>
 							<seg type="lemma" ana="#repudiasset_p165_l19">repudiasset
 							</seg>
-							<seg type="comment" xml:id="repudiasset_p165_l19">: the <foreign
-									xml:lang="lat">protasis</foreign> is implied in <foreign
-									xml:lang="lat">petentem</foreign>. </seg>
+							<seg type="comment" xml:id="repudiasset_p165_l19">: the <foreign xml:lang="lat">protasis</foreign> is implied in <foreign xml:lang="lat">petentem</foreign>. </seg>
 						</p>
 						<p>
 							<seg type="lemma" ana="#quem_p165_l19">quem
@@ -1687,7 +1649,7 @@
 							<seg type="comment" xml:id="jubere_p165_l19">,
 								below. </seg>
 						</p>
-						<milestone unit="page_line" n="p165_l20" />
+						<milestone unit="page_line" n="p165_l20"/>
 						<p>
 							<seg type="lemma" ana="#de_populo_p165_l20">de populo
 							</seg>
@@ -1703,7 +1665,7 @@
 								(195, d); B. 250, 3; cf. G. 211, R.5 H. 396, 2 (445, 4); H.-B. 326,
 								I. </seg>
 						</p>
-						<milestone unit="page_line" n="p165_l21" />
+						<milestone unit="page_line" n="p165_l21"/>
 						<p>
 							<seg type="lemma" ana="#tantummodo_longiusculis_p165_l21">tantummodo . .
 								. longiusculis
@@ -1717,7 +1679,7 @@
 							<seg type="comment" xml:id="tantummodo_p165_l21">
 								implies that this was its only merit. </seg>
 						</p>
-						<milestone unit="page_line" n="p165_l22" />
+						<milestone unit="page_line" n="p165_l22"/>
 						<p>
 							<seg type="lemma" ana="#eis_rebus_p165_l22">eis rebus
 							</seg>
@@ -1728,7 +1690,7 @@
 								here
 								the confiscated goods are treated in the same manner. </seg>
 						</p>
-						<milestone unit="page_line" n="p165_l30" />
+						<milestone unit="page_line" n="p165_l30"/>
 					</div>
 					<div type="section" n="26" corresp="urn:cts:latinLit:phi0474.phi016:26">
 						<p>
@@ -1739,7 +1701,7 @@
 								accusatives: § <ref n="AG 390">390</ref>,a(240,a); B. 176,2,b,N.;
 								G.333,2,N.6; H.409 and 1 (371,ii); H.-B. 396, 2. </seg>
 						</p>
-						<milestone unit="page_line" n="p166_l2" />
+						<milestone unit="page_line" n="p166_l2"/>
 						<p>
 							<seg type="lemma" ana="#prae_ferendum_p166_l2">prae nobis ferendum
 							</seg>
@@ -1747,7 +1709,7 @@
 								be proud of</gloss>
 							</seg>
 						</p>
-						<milestone unit="page_line" n="p166_l3" />
+						<milestone unit="page_line" n="p166_l3"/>
 						<p>
 							<seg type="lemma" ana="#optimus_quisque_p166_l3">optimus quisque
 							</seg>
@@ -1755,41 +1717,39 @@
 								313</ref>, b (93,c); B. 252,5, c; G. 318,2; H. 515, 2 (458, I);
 								H.-B. 278, 2, b. </seg>
 						</p>
-						<milestone unit="page_line" n="p166_l5" />
+						<milestone unit="page_line" n="p166_l5"/>
 						<p>
 							<seg type="lemma" ana="#in_ipso_p166_l5">in eo ipso
 							</seg>
 							<seg type="comment" xml:id="in_ipso_p166_l5"> , <gloss>in the very act</gloss>
 							</seg>
 						</p>
-						<milestone unit="page_line" n="p166_l6" />
+						<milestone unit="page_line" n="p166_l6"/>
 						<p>
 							<seg type="lemma" ana="#praedicari_p166_l6">praedicari
 							</seg>
 							<seg type="comment" xml:id="praedicari_p166_l6">:
 								impersonal. </seg>
 						</p>
-						<milestone unit="page_line" n="p166_l7" />
+						<milestone unit="page_line" n="p166_l7"/>
 					</div>
 					<div type="section" n="27" corresp="urn:cts:latinLit:phi0474.phi016:27">
 						<p>
 							<seg type="lemma" ana="#Brutus_p166_l7">Brutus
 							</seg>
-							<seg type="comment" xml:id="Brutus_p166_l7">: D. Junius Brutus (cos. <date
-									when="-0138">B.C. 138</date>) conquered the Lusitanians (of
+							<seg type="comment" xml:id="Brutus_p166_l7">: D. Junius Brutus (cos. <date when="-0138">B.C. 138</date>) conquered the Lusitanians (of
 								Portugal). </seg>
 						</p>
-						<milestone unit="page_line" n="p166_l8" />
+						<milestone unit="page_line" n="p166_l8"/>
 						<p>
 							<seg type="lemma" ana="#Acci_p166_l8">Acci
 							</seg>
 							<seg type="comment" xml:id="Acci_p166_l8">: <gloss>L.
-									Accius</gloss> (less properly Attius), a tragic poet (born <date
-									when="-0170">B.C. 170</date>); distinguished for vigor and
+									Accius</gloss> (less properly Attius), a tragic poet (born <date when="-0170">B.C. 170</date>); distinguished for vigor and
 								sublimity; he lived long enough for Cicero in his youth to converse
 								with him. </seg>
 						</p>
-						<milestone unit="page_line" n="p166_l10" />
+						<milestone unit="page_line" n="p166_l10"/>
 						<p>
 							<seg type="lemma" ana="#Fulvius_p166_l10">Fulvius
 							</seg>
@@ -1798,21 +1758,20 @@
 								distinguished as a friend of Greek literature, and built, from the
 								spoils of war, a temple to Hercules and the Muses. </seg>
 						</p>
-						<milestone unit="page_line" n="p166_l12" />
+						<milestone unit="page_line" n="p166_l12"/>
 						<p>
 							<seg type="lemma" ana="#prope_armati_p166_l12">prope armati
 							</seg>
 							<seg type="comment" xml:id="prope_armati_p166_l12"> , <gloss>having
 								scarce laid aside their arms</gloss>. </seg>
 						</p>
-						<milestone unit="page_line" n="p166_l14" />
+						<milestone unit="page_line" n="p166_l14"/>
 						<p>
 							<seg type="lemma" ana="#togati_p166_l14">togati
 							</seg>
-							<seg type="comment" xml:id="togati_p166_l14">: see note on <ref
-									n="pl125.17">p. 125, l. 17</ref>. </seg>
+							<seg type="comment" xml:id="togati_p166_l14">: see note on <ref n="pl125.17">p. 125, l. 17</ref>. </seg>
 						</p>
-						<milestone unit="page_line" n="p166_l18" />
+						<milestone unit="page_line" n="p166_l18"/>
 					</div>
 					<div type="section" n="28" corresp="urn:cts:latinLit:phi0474.phi016:28">
 						<p>
@@ -1821,22 +1780,21 @@
 							<seg type="comment" xml:id="quas_res_p166_l18">,
 								i.e. the suppression of Catiline's conspiracy. </seg>
 						</p>
-						<milestone unit="page_line" n="p166_l23" />
+						<milestone unit="page_line" n="p166_l23"/>
 						<p>
 							<seg type="lemma" ana="#adornavi_p166_l23">adornavi
 							</seg>
 							<seg type="comment" xml:id="adornavi_p166_l23"> , <gloss>I supplied him</gloss>
 								with materials (i.e. facts). </seg>
 						</p>
-						<milestone unit="page_line" n="p166_l25" />
+						<milestone unit="page_line" n="p166_l25"/>
 						<p>
 							<seg type="lemma" ana="#quid_quod_p166_l25">quid est quod
 							</seg>
-							<seg type="comment" xml:id="quid_quod_p166_l25">, etc.: § <ref
-									n="AG 531">531</ref>, 2 (317, 2); B. 282, 2; G. 631, 2; H. 590
+							<seg type="comment" xml:id="quid_quod_p166_l25">, etc.: § <ref n="AG 531">531</ref>, 2 (317, 2); B. 282, 2; G. 631, 2; H. 590
 								(497, 1); H.-B. 513, 2. </seg>
 						</p>
-						<milestone unit="page_line" n="p166_l30" />
+						<milestone unit="page_line" n="p166_l30"/>
 					</div>
 					<div type="section" n="29" corresp="urn:cts:latinLit:phi0474.phi016:29">
 						<p>
@@ -1845,7 +1803,7 @@
 							<seg type="comment" xml:id="nec_tantis_p166_l30">,
 								etc.: here the apod. begins. </seg>
 						</p>
-						<milestone unit="page_line" n="p167_l5" />
+						<milestone unit="page_line" n="p167_l5"/>
 					</div>
 					<div type="section" n="30" corresp="urn:cts:latinLit:phi0474.phi016:30">
 						<p>
@@ -1855,7 +1813,7 @@
 								§ <ref n="AG 345">345</ref> (215); B. 203, I; G. 365; H. 440, 3
 								(394, v); H.-B. 355 </seg>
 						</p>
-						<milestone unit="page_line" n="p167_l9" />
+						<milestone unit="page_line" n="p167_l9"/>
 						<p>
 							<seg type="lemma" ana="#imagines_p167_l9">imagines
 							</seg>
@@ -1879,7 +1837,7 @@
 						<p>Archias the poet should be protected in the rights of citizenship, which
 							are legally his.
 						</p>
-						<milestone unit="page_line" n="p167_l20" />
+						<milestone unit="page_line" n="p167_l20"/>
 						<p>
 							<seg type="lemma" ana="#pudore_eo_p167_l20">pudore eo
 							</seg>
@@ -1888,7 +1846,7 @@
 								self-respect, as contrasted with the unprincipled Greek hangers-on
 								with whom Roman society was infested). </seg>
 						</p>
-						<milestone unit="page_line" n="p167_l22" />
+						<milestone unit="page_line" n="p167_l22"/>
 						<p>
 							<seg type="lemma" ana="#vetustate_p167_l22">vetustate
 							</seg>
@@ -1902,28 +1860,28 @@
 							<seg type="comment" xml:id="id_convenit_p167_l22"> , <gloss>it is
 									fitting</gloss>. </seg>
 						</p>
-						<milestone unit="page_line" n="p167_l24" />
+						<milestone unit="page_line" n="p167_l24"/>
 						<p>
 							<seg type="lemma" ana="#videatis_p167_l24">videatis
 							</seg>
 							<seg type="comment" xml:id="videatis_p167_l24">,
 								subj. of integral part. </seg>
 						</p>
-						<milestone unit="page_line" n="p167_l25" />
+						<milestone unit="page_line" n="p167_l25"/>
 						<p>
 							<seg type="lemma" ana="#municipi_p167_l25">municipi
 							</seg>
 							<seg type="comment" xml:id="municipi_p167_l25">,
 								i.e. Heraclia. </seg>
 						</p>
-						<milestone unit="page_line" n="p167_l26" />
+						<milestone unit="page_line" n="p167_l26"/>
 						<p>
 							<seg type="lemma" ana="#comprobetur_p167_l26">comprobetur
 							</seg>
 							<seg type="comment" xml:id="comprobetur_p167_l26">,
 								subj. of characteristic. </seg>
 						</p>
-						<milestone unit="page_line" n="p167_l28" />
+						<milestone unit="page_line" n="p167_l28"/>
 						<p>
 							<seg type="lemma" ana="#ut_p167_l28">ut
 							</seg>
@@ -1933,14 +1891,14 @@
 							<seg type="comment" xml:id="accipiatis_p167_l28"> , <ref n="pl168.2">p.
 								168, l. 2</ref>. </seg>
 						</p>
-						<milestone unit="page_line" n="p168_l1" />
+						<milestone unit="page_line" n="p168_l1"/>
 						<p>
 							<seg type="lemma" ana="#ex_numero_p168_l1">ex eo numero
 							</seg>
 							<seg type="comment" xml:id="ex_numero_p168_l1">,
 								i.e. of poets. </seg>
 						</p>
-						<milestone unit="page_line" n="p168_l9" />
+						<milestone unit="page_line" n="p168_l9"/>
 						<p>
 							<seg type="lemma" ana="#ab_qui_p168_l9">ab eo qui
 							</seg>
@@ -1954,240 +1912,240 @@
 	</text>
 	<standOff>
 		<linkGrp type="commentary">
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #judices_p154_l1" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #versatum_p154_l3" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #hujusce_rei_p154_l3" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #ratio_p155_l1" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #exercitatio_p155_l1" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #A_Licinius_p155_l3" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #inde_usque_p155_l6" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #principem_p155_l7" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #rationem_p155_l8" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #a_quo_p155_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #huic_p155_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #ferre_p155_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #quo_p155_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #id_p155_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #ceteris_p155_l11" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #alios_p155_l11" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #opem_p155_l12" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #opitulari_p155_l12" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #salutem_p155_l12" />
-			<link target="urn:cts:latinLit:phi0474.phi016:1 #servare_p155_l12" />
-			<link target="urn:cts:latinLit:phi0474.phi016:2 #neque_p155_l14" />
-			<link target="urn:cts:latinLit:phi0474.phi016:2 #dicendi_disciplina_p155_l15" />
-			<link target="urn:cts:latinLit:phi0474.phi016:2 #ne_quidem_p155_l15" />
-			<link target="urn:cts:latinLit:phi0474.phi016:3 #quaestione_legitima_p155_l20" />
-			<link target="urn:cts:latinLit:phi0474.phi016:3 #severissimos_p155_l22" />
-			<link target="urn:cts:latinLit:phi0474.phi016:3 #forensi_sermone_p155_l24" />
-			<link target="urn:cts:latinLit:phi0474.phi016:3 #ut_patiamini_p155_l27" />
-			<link target="urn:cts:latinLit:phi0474.phi016:3 #veniam_p155_l27" />
-			<link target="urn:cts:latinLit:phi0474.phi016:3 #hoc_concursu_p155_l28" />
-			<link target="urn:cts:latinLit:phi0474.phi016:3 #hac_humanitate_p155_l28" />
-			<link target="urn:cts:latinLit:phi0474.phi016:3 #hoc_praetore_p155_l29" />
-			<link target="urn:cts:latinLit:phi0474.phi016:3 #paulo_liberius_p155_l30" />
-			<link target="urn:cts:latinLit:phi0474.phi016:3 #otium_studium_p155_l31" />
-			<link target="urn:cts:latinLit:phi0474.phi016:3 #judiciis_periculisque_p155_l31" />
-			<link target="urn:cts:latinLit:phi0474.phi016:4 #cum_p156_l3" />
-			<link target="urn:cts:latinLit:phi0474.phi016:4 #esset_p156_l4" />
-			<link target="urn:cts:latinLit:phi0474.phi016:4 #asciscendum_fuisse_p156_l5" />
-			<link target="urn:cts:latinLit:phi0474.phi016:4 #urbe_p156_l9" />
-			<link target="urn:cts:latinLit:phi0474.phi016:4 #contigit_p156_l12" />
-			<link target="urn:cts:latinLit:phi0474.phi016:4 #post_p156_l12" />
-			<link target="urn:cts:latinLit:phi0474.phi016:5 #tunc_p156_l15" />
-			<link target="urn:cts:latinLit:phi0474.phi016:5 #Latio_p156_l16" />
-			<link target="urn:cts:latinLit:phi0474.phi016:5 #de_ingeniis_p156_l21" />
-			<link target="urn:cts:latinLit:phi0474.phi016:5 #absentibus_p156_l23" />
-			<link target="urn:cts:latinLit:phi0474.phi016:5 #Mario_Catulo_p156_l23" />
-			<link target="urn:cts:latinLit:phi0474.phi016:5 #nactus_est_p156_l25" />
-			<link target="urn:cts:latinLit:phi0474.phi016:5 #eos_alter_p156_l25" />
-			<link target="urn:cts:latinLit:phi0474.phi016:5 #Luculli_p156_l27" />
-			<link target="urn:cts:latinLit:phi0474.phi016:5 #ingeni_p156_l29" />
-			<link target="urn:cts:latinLit:phi0474.phi016:5 #ut_esset_p156_l30" />
-			<link target="urn:cts:latinLit:phi0474.phi016:5 #hoc_p156_l30" />
-			<link target="urn:cts:latinLit:phi0474.phi016:6 #jucundus_p157_l1" />
-			<link target="urn:cts:latinLit:phi0474.phi016:6 #Metello_Numidico_p157_l1" />
-			<link target="urn:cts:latinLit:phi0474.phi016:6 #Aemilio_p157_l2" />
-			<link target="urn:cts:latinLit:phi0474.phi016:6 #Catulo_p157_l3" />
-			<link target="urn:cts:latinLit:phi0474.phi016:6 #L_Crasso_p157_l3" />
-			<link target="urn:cts:latinLit:phi0474.phi016:6 #Drusum_p157_l4" />
-			<link target="urn:cts:latinLit:phi0474.phi016:6 #Octavios_p157_l4" />
-			<link target="urn:cts:latinLit:phi0474.phi016:6 #Catonem_p157_l4" />
-			<link target="urn:cts:latinLit:phi0474.phi016:6 #Hortensiorum_p157_l5" />
-			<link target="urn:cts:latinLit:phi0474.phi016:6 #si_forte_p157_l8" />
-			<link target="urn:cts:latinLit:phi0474.phi016:6 #Heracliam_p157_l11" />
-			<link target="urn:cts:latinLit:phi0474.phi016:6 #aequissimo_foedere_p157_l11" />
-			<link target="urn:cts:latinLit:phi0474.phi016:7 #Silvani_lege_p157_l15" />
-			<link target="urn:cts:latinLit:phi0474.phi016:7 #si_qui_p157_l15" />
-			<link target="urn:cts:latinLit:phi0474.phi016:7 #data_est_p157_l15" />
-			<link target="urn:cts:latinLit:phi0474.phi016:7 #essent_professi_p157_l18" />
-			<link target="urn:cts:latinLit:phi0474.phi016:7 #Q_Metellum_p157_l19" />
-			<link target="urn:cts:latinLit:phi0474.phi016:8 #Grati_p157_l22" />
-			<link target="urn:cts:latinLit:phi0474.phi016:8 #religione_p158_l1" />
-			<link target="urn:cts:latinLit:phi0474.phi016:8 #desideras_p158_l6" />
-			<link target="urn:cts:latinLit:phi0474.phi016:8 #Italico_bello_p158_l6" />
-			<link target="urn:cts:latinLit:phi0474.phi016:8 #municipi_p158_l11" />
-			<link target="urn:cts:latinLit:phi0474.phi016:8 #idem_p158_l12" />
-			<link target="urn:cts:latinLit:phi0474.phi016:9 #domicilium_p158_15" />
-			<link target="urn:cts:latinLit:phi0474.phi016:9 #professio_p158_15" />
-			<link target="urn:cts:latinLit:phi0474.phi016:9 #civitatem_datam_p158_15" />
-			<link target="urn:cts:latinLit:phi0474.phi016:9 #professione_p158_l17" />
-			<link target="urn:cts:latinLit:phi0474.phi016:9 #conlegio_p158_l18" />
-			<link target="urn:cts:latinLit:phi0474.phi016:9 #cum_p158_l19" />
-			<link target="urn:cts:latinLit:phi0474.phi016:9 #Appi_p158_l19" />
-			<link target="urn:cts:latinLit:phi0474.phi016:9 #Gabini_p158_l20" />
-			<link target="urn:cts:latinLit:phi0474.phi016:9 #damnationem_p158_l21" />
-			<link target="urn:cts:latinLit:phi0474.phi016:9 #L_Lentulum_p158_l23" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #multis_p158_l29" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #praeditis_p158_l29" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #impertiebant_p158_l29" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #arte_p158_l29" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #praeditis_p158_l29_2" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #Graecia_p158_l30" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #credo_p158_l31" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #Locrensis_p158_l31" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #quod_p158_l32" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #id_p158_l32" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #largiri_p158_l32" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #ingeni_p159_l1" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #gloria_p159_l1" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #praedito_p159_l1" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #civitatem_datam_p159_l2" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #legem_Papiam_p159_l3" />
-			<link target="urn:cts:latinLit:phi0474.phi016:10 #illis_p159_l4" />
-			<link target="urn:cts:latinLit:phi0474.phi016:11 #census_p159_l6" />
-			<link target="urn:cts:latinLit:phi0474.phi016:11 #requiris_p159_l6" />
-			<link target="urn:cts:latinLit:phi0474.phi016:11 #est_obscurum_p159_l6" />
-			<link target="urn:cts:latinLit:phi0474.phi016:11 #proximis_p159_l7" />
-			<link target="urn:cts:latinLit:phi0474.phi016:11 #clarissimo_p159_l7" />
-			<link target="urn:cts:latinLit:phi0474.phi016:11 #apud_exercitum_p159_l8" />
-			<link target="urn:cts:latinLit:phi0474.phi016:11 #superioribus_p159_l8" />
-			<link target="urn:cts:latinLit:phi0474.phi016:11 #in_Asia_p159_l9" />
-			<link target="urn:cts:latinLit:phi0474.phi016:11 #primis_p159_l9" />
-			<link target="urn:cts:latinLit:phi0474.phi016:11 #esse_versatum_p159_l14" />
-			<link target="urn:cts:latinLit:phi0474.phi016:11 #testamentum_p159_l14" />
-			<link target="urn:cts:latinLit:phi0474.phi016:11 #in_beneficiis_p159_l16" />
-			<link target="urn:cts:latinLit:phi0474.phi016:11 #suo_p159_l18" />
-			<link target="urn:cts:latinLit:phi0474.phi016:12 #ubi_p159_l20" />
-			<link target="urn:cts:latinLit:phi0474.phi016:12 #_reficiatur_p159_l20" />
-			<link target="urn:cts:latinLit:phi0474.phi016:12 #suppetere_p159_l22" />
-			<link target="urn:cts:latinLit:phi0474.phi016:12 #quod_p159_l22" />
-			<link target="urn:cts:latinLit:phi0474.phi016:12 #posse_p159_l22" />
-			<link target="urn:cts:latinLit:phi0474.phi016:12 #contentionem_p159_l24" />
-			<link target="urn:cts:latinLit:phi0474.phi016:12 #ego_p159_l25" />
-			<link target="urn:cts:latinLit:phi0474.phi016:12 #his_studiis_p159_l26" />
-			<link target="urn:cts:latinLit:phi0474.phi016:12 #nullius_tempore_p159_l30" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #ceteris_p160_l1" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #conceditur_p160_l1" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #ad_requiem_p160_l3" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #temporum_p160_l4" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #quantum_p160_l4" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #tantum_p160_l4" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #alii_p160_l4" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #ceteris_p160_l4" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #tempestivis_conviviis_p160_l4" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #a_idleness_p160_l4" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #oratio_facultas_p160_l8" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #quantacumque_p160_l8" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #periculis_p160_l9" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #quae_p160_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #illa_p160_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #hauriam_p160_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:13 #praecepta_p160_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:14 #multorum_p160_l12" />
-			<link target="urn:cts:latinLit:phi0474.phi016:14 #multis_litteris_p160_l12" />
-			<link target="urn:cts:latinLit:phi0474.phi016:14 #nihil_esse_p160_l13" />
-			<link target="urn:cts:latinLit:phi0474.phi016:14 #parvi_p160_l16" />
-			<link target="urn:cts:latinLit:phi0474.phi016:14 #exemplorum_p160_l19" />
-			<link target="urn:cts:latinLit:phi0474.phi016:14 #accederet_p160_l21" />
-			<link target="urn:cts:latinLit:phi0474.phi016:16 #ex_hoc_p161_l9" />
-			<link target="urn:cts:latinLit:phi0474.phi016:16 #Africanum_p161_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:16 #Laelium_p161_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:16 #Furium_p161_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:16 #Catonem_p161_l12" />
-			<link target="urn:cts:latinLit:phi0474.phi016:16 #senem_p161_l13" />
-			<link target="urn:cts:latinLit:phi0474.phi016:16 #quod_si_p161_l15_23" />
-			<link target="urn:cts:latinLit:phi0474.phi016:16 #ceterae_p161_l18" />
-			<link target="urn:cts:latinLit:phi0474.phi016:16 #adversis_p161_l21" />
-			<link target="urn:cts:latinLit:phi0474.phi016:16 #praebent_p161_l21" />
-			<link target="urn:cts:latinLit:phi0474.phi016:17 #deberemus_p161_l25" />
-			<link target="urn:cts:latinLit:phi0474.phi016:17 #videremus_p161_l26" />
-			<link target="urn:cts:latinLit:phi0474.phi016:17 #Rosci_p161_l27" />
-			<link target="urn:cts:latinLit:phi0474.phi016:17 #corporis_p161_l30" />
-			<link target="urn:cts:latinLit:phi0474.phi016:17 #animorum_p161_l30" />
-			<link target="urn:cts:latinLit:phi0474.phi016:18 #novo_genere_p162_l2" />
-			<link target="urn:cts:latinLit:phi0474.phi016:18 #quotiens_p162_l2" />
-			<link target="urn:cts:latinLit:phi0474.phi016:18 #celeritas_p162_l2" />
-			<link target="urn:cts:latinLit:phi0474.phi016:18 #revocatum_p162_l5" />
-			<link target="urn:cts:latinLit:phi0474.phi016:18 #dicere_p162_l5" />
-			<link target="urn:cts:latinLit:phi0474.phi016:18 #sic_p162_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:18 #Ennius_p162_l14" />
-			<link target="urn:cts:latinLit:phi0474.phi016:19 #bestiae_p162_l19" />
-			<link target="urn:cts:latinLit:phi0474.phi016:19 #Homerum_p162_l21" />
-			<link target="urn:cts:latinLit:phi0474.phi016:19 #olim_p162_l27" />
-			<link target="urn:cts:latinLit:phi0474.phi016:19 #Cimbricas_res_p162_l29" />
-			<link target="urn:cts:latinLit:phi0474.phi016:19 #durior_p162_l30" />
-			<link target="urn:cts:latinLit:phi0474.phi016:20 #Themistoclem_p163_l3" />
-			<link target="urn:cts:latinLit:phi0474.phi016:21 #For_section_p163_l8" />
-			<link target="urn:cts:latinLit:phi0474.phi016:21 #natura_regione_p163_l14" />
-			<link target="urn:cts:latinLit:phi0474.phi016:21 #ejusdem_p163_l17" />
-			<link target="urn:cts:latinLit:phi0474.phi016:21 #nostra_p163_l19" />
-			<link target="urn:cts:latinLit:phi0474.phi016:21 #pugna_p163_l19" />
-			<link target="urn:cts:latinLit:phi0474.phi016:21 #quae_p164_l3" />
-			<link target="urn:cts:latinLit:phi0474.phi016:21 #quorum_p164_l3" />
-			<link target="urn:cts:latinLit:phi0474.phi016:21 #ingeniis_p164_l3" />
-			<link target="urn:cts:latinLit:phi0474.phi016:21 #eis_p164_l3" />
-			<link target="urn:cts:latinLit:phi0474.phi016:22 #Africano_superiori_p164_l4" />
-			<link target="urn:cts:latinLit:phi0474.phi016:22 #in_Scipionum_p164_l5" />
-			<link target="urn:cts:latinLit:phi0474.phi016:22 #hujus_p164_l8" />
-			<link target="urn:cts:latinLit:phi0474.phi016:22 #Maximi_p164_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:22 #illum_p164_l11" />
-			<link target="urn:cts:latinLit:phi0474.phi016:22 #Heracliensem_p164_l13" />
-			<link target="urn:cts:latinLit:phi0474.phi016:22 #civitatibus_p164_l13" />
-			<link target="urn:cts:latinLit:phi0474.phi016:23 #Graeca_leguntur_p164_l18" />
-			<link target="urn:cts:latinLit:phi0474.phi016:23 #quo_p164_l21" />
-			<link target="urn:cts:latinLit:phi0474.phi016:23 #cupere_p164_l21" />
-			<link target="urn:cts:latinLit:phi0474.phi016:23 #quo_penetrare_p164_l21" />
-			<link target="urn:cts:latinLit:phi0474.phi016:23 #populis_p165_l1" />
-			<link target="urn:cts:latinLit:phi0474.phi016:23 #eis_p165_l2" />
-			<link target="urn:cts:latinLit:phi0474.phi016:24 #Magnus_p165_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:25 #esset_p165_l17" />
-			<link target="urn:cts:latinLit:phi0474.phi016:25 #civitate_donaretur_p165_l17" />
-			<link target="urn:cts:latinLit:phi0474.phi016:25 #donaret_p165_l18" />
-			<link target="urn:cts:latinLit:phi0474.phi016:25 #repudiasset_p165_l19" />
-			<link target="urn:cts:latinLit:phi0474.phi016:25 #quem_p165_l19" />
-			<link target="urn:cts:latinLit:phi0474.phi016:25 #jubere_p165_l19" />
-			<link target="urn:cts:latinLit:phi0474.phi016:25 #de_populo_p165_l20" />
-			<link target="urn:cts:latinLit:phi0474.phi016:25 #quod_fecisset_p165_l20" />
-			<link target="urn:cts:latinLit:phi0474.phi016:25 #tantummodo_longiusculis_p165_l21" />
-			<link target="urn:cts:latinLit:phi0474.phi016:25 #tantummodo_p165_l21" />
-			<link target="urn:cts:latinLit:phi0474.phi016:25 #eis_rebus_p165_l22" />
-			<link target="urn:cts:latinLit:phi0474.phi016:26 #pingue_peregrinum_p165_l30" />
-			<link target="urn:cts:latinLit:phi0474.phi016:26 #prae_ferendum_p166_l2" />
-			<link target="urn:cts:latinLit:phi0474.phi016:26 #optimus_quisque_p166_l3" />
-			<link target="urn:cts:latinLit:phi0474.phi016:26 #in_ipso_p166_l5" />
-			<link target="urn:cts:latinLit:phi0474.phi016:26 #praedicari_p166_l6" />
-			<link target="urn:cts:latinLit:phi0474.phi016:27 #Brutus_p166_l7" />
-			<link target="urn:cts:latinLit:phi0474.phi016:27 #Acci_p166_l8" />
-			<link target="urn:cts:latinLit:phi0474.phi016:27 #Fulvius_p166_l10" />
-			<link target="urn:cts:latinLit:phi0474.phi016:27 #prope_armati_p166_l12" />
-			<link target="urn:cts:latinLit:phi0474.phi016:27 #togati_p166_l14" />
-			<link target="urn:cts:latinLit:phi0474.phi016:28 #quas_res_p166_l18" />
-			<link target="urn:cts:latinLit:phi0474.phi016:28 #adornavi_p166_l23" />
-			<link target="urn:cts:latinLit:phi0474.phi016:28 #quid_quod_p166_l25" />
-			<link target="urn:cts:latinLit:phi0474.phi016:29 #nec_tantis_p166_l30" />
-			<link target="urn:cts:latinLit:phi0474.phi016:30 #parvi_animi_p167_l5" />
-			<link target="urn:cts:latinLit:phi0474.phi016:30 #imagines_p167_l9" />
-			<link target="urn:cts:latinLit:phi0474.phi016:31 #pudore_eo_p167_l20" />
-			<link target="urn:cts:latinLit:phi0474.phi016:31 #vetustate_p167_l22" />
-			<link target="urn:cts:latinLit:phi0474.phi016:31 #id_convenit_p167_l22" />
-			<link target="urn:cts:latinLit:phi0474.phi016:31 #videatis_p167_l24" />
-			<link target="urn:cts:latinLit:phi0474.phi016:31 #municipi_p167_l25" />
-			<link target="urn:cts:latinLit:phi0474.phi016:31 #comprobetur_p167_l26" />
-			<link target="urn:cts:latinLit:phi0474.phi016:31 #ut_p167_l28" />
-			<link target="urn:cts:latinLit:phi0474.phi016:31 #accipiatis_p167_l28" />
-			<link target="urn:cts:latinLit:phi0474.phi016:31 #ex_numero_p168_l1" />
-			<link target="urn:cts:latinLit:phi0474.phi016:31 #ab_qui_p168_l9" />
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #judices_p154_l1"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #versatum_p154_l3"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #hujusce_rei_p154_l3"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #ratio_p155_l1"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #exercitatio_p155_l1"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #A_Licinius_p155_l3"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #inde_usque_p155_l6"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #principem_p155_l7"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #rationem_p155_l8"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #a_quo_p155_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #huic_p155_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #ferre_p155_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #quo_p155_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #id_p155_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #ceteris_p155_l11"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #alios_p155_l11"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #opem_p155_l12"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #opitulari_p155_l12"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #salutem_p155_l12"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:1 #servare_p155_l12"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:2 #neque_p155_l14"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:2 #dicendi_disciplina_p155_l15"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:2 #ne_quidem_p155_l15"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:3 #quaestione_legitima_p155_l20"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:3 #severissimos_p155_l22"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:3 #forensi_sermone_p155_l24"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:3 #ut_patiamini_p155_l27"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:3 #veniam_p155_l27"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:3 #hoc_concursu_p155_l28"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:3 #hac_humanitate_p155_l28"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:3 #hoc_praetore_p155_l29"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:3 #paulo_liberius_p155_l30"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:3 #otium_studium_p155_l31"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:3 #judiciis_periculisque_p155_l31"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:4 #cum_p156_l3"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:4 #esset_p156_l4"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:4 #asciscendum_fuisse_p156_l5"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:4 #urbe_p156_l9"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:4 #contigit_p156_l12"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:4 #post_p156_l12"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:5 #tunc_p156_l15"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:5 #Latio_p156_l16"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:5 #de_ingeniis_p156_l21"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:5 #absentibus_p156_l23"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:5 #Mario_Catulo_p156_l23"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:5 #nactus_est_p156_l25"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:5 #eos_alter_p156_l25"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:5 #Luculli_p156_l27"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:5 #ingeni_p156_l29"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:5 #ut_esset_p156_l30"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:5 #hoc_p156_l30"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:6 #jucundus_p157_l1"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:6 #Metello_Numidico_p157_l1"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:6 #Aemilio_p157_l2"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:6 #Catulo_p157_l3"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:6 #L_Crasso_p157_l3"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:6 #Drusum_p157_l4"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:6 #Octavios_p157_l4"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:6 #Catonem_p157_l4"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:6 #Hortensiorum_p157_l5"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:6 #si_forte_p157_l8"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:6 #Heracliam_p157_l11"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:6 #aequissimo_foedere_p157_l11"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:7 #Silvani_lege_p157_l15"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:7 #si_qui_p157_l15"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:7 #data_est_p157_l15"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:7 #essent_professi_p157_l18"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:7 #Q_Metellum_p157_l19"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:8 #Grati_p157_l22"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:8 #religione_p158_l1"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:8 #desideras_p158_l6"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:8 #Italico_bello_p158_l6"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:8 #municipi_p158_l11"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:8 #idem_p158_l12"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:9 #domicilium_p158_15"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:9 #professio_p158_15"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:9 #civitatem_datam_p158_15"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:9 #professione_p158_l17"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:9 #conlegio_p158_l18"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:9 #cum_p158_l19"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:9 #Appi_p158_l19"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:9 #Gabini_p158_l20"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:9 #damnationem_p158_l21"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:9 #L_Lentulum_p158_l23"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #multis_p158_l29"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #praeditis_p158_l29"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #impertiebant_p158_l29"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #arte_p158_l29"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #praeditis_p158_l29_2"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #Graecia_p158_l30"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #credo_p158_l31"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #Locrensis_p158_l31"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #quod_p158_l32"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #id_p158_l32"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #largiri_p158_l32"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #ingeni_p159_l1"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #gloria_p159_l1"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #praedito_p159_l1"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #civitatem_datam_p159_l2"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #legem_Papiam_p159_l3"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:10 #illis_p159_l4"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:11 #census_p159_l6"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:11 #requiris_p159_l6"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:11 #est_obscurum_p159_l6"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:11 #proximis_p159_l7"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:11 #clarissimo_p159_l7"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:11 #apud_exercitum_p159_l8"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:11 #superioribus_p159_l8"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:11 #in_Asia_p159_l9"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:11 #primis_p159_l9"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:11 #esse_versatum_p159_l14"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:11 #testamentum_p159_l14"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:11 #in_beneficiis_p159_l16"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:11 #suo_p159_l18"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:12 #ubi_p159_l20"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:12 #_reficiatur_p159_l20"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:12 #suppetere_p159_l22"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:12 #quod_p159_l22"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:12 #posse_p159_l22"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:12 #contentionem_p159_l24"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:12 #ego_p159_l25"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:12 #his_studiis_p159_l26"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:12 #nullius_tempore_p159_l30"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #ceteris_p160_l1"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #conceditur_p160_l1"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #ad_requiem_p160_l3"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #temporum_p160_l4"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #quantum_p160_l4"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #tantum_p160_l4"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #alii_p160_l4"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #ceteris_p160_l4"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #tempestivis_conviviis_p160_l4"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #a_idleness_p160_l4"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #oratio_facultas_p160_l8"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #quantacumque_p160_l8"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #periculis_p160_l9"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #quae_p160_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #illa_p160_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #hauriam_p160_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:13 #praecepta_p160_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:14 #multorum_p160_l12"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:14 #multis_litteris_p160_l12"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:14 #nihil_esse_p160_l13"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:14 #parvi_p160_l16"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:14 #exemplorum_p160_l19"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:14 #accederet_p160_l21"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:16 #ex_hoc_p161_l9"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:16 #Africanum_p161_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:16 #Laelium_p161_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:16 #Furium_p161_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:16 #Catonem_p161_l12"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:16 #senem_p161_l13"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:16 #quod_si_p161_l15_23"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:16 #ceterae_p161_l18"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:16 #adversis_p161_l21"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:16 #praebent_p161_l21"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:17 #deberemus_p161_l25"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:17 #videremus_p161_l26"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:17 #Rosci_p161_l27"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:17 #corporis_p161_l30"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:17 #animorum_p161_l30"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:18 #novo_genere_p162_l2"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:18 #quotiens_p162_l2"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:18 #celeritas_p162_l2"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:18 #revocatum_p162_l5"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:18 #dicere_p162_l5"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:18 #sic_p162_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:18 #Ennius_p162_l14"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:19 #bestiae_p162_l19"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:19 #Homerum_p162_l21"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:19 #olim_p162_l27"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:19 #Cimbricas_res_p162_l29"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:19 #durior_p162_l30"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:20 #Themistoclem_p163_l3"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:21 #For_section_p163_l8"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:21 #natura_regione_p163_l14"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:21 #ejusdem_p163_l17"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:21 #nostra_p163_l19"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:21 #pugna_p163_l19"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:21 #quae_p164_l3"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:21 #quorum_p164_l3"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:21 #ingeniis_p164_l3"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:21 #eis_p164_l3"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:22 #Africano_superiori_p164_l4"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:22 #in_Scipionum_p164_l5"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:22 #hujus_p164_l8"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:22 #Maximi_p164_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:22 #illum_p164_l11"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:22 #Heracliensem_p164_l13"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:22 #civitatibus_p164_l13"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:23 #Graeca_leguntur_p164_l18"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:23 #quo_p164_l21"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:23 #cupere_p164_l21"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:23 #quo_penetrare_p164_l21"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:23 #populis_p165_l1"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:23 #eis_p165_l2"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:24 #Magnus_p165_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:25 #esset_p165_l17"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:25 #civitate_donaretur_p165_l17"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:25 #donaret_p165_l18"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:25 #repudiasset_p165_l19"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:25 #quem_p165_l19"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:25 #jubere_p165_l19"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:25 #de_populo_p165_l20"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:25 #quod_fecisset_p165_l20"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:25 #tantummodo_longiusculis_p165_l21"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:25 #tantummodo_p165_l21"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:25 #eis_rebus_p165_l22"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:26 #pingue_peregrinum_p165_l30"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:26 #prae_ferendum_p166_l2"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:26 #optimus_quisque_p166_l3"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:26 #in_ipso_p166_l5"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:26 #praedicari_p166_l6"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:27 #Brutus_p166_l7"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:27 #Acci_p166_l8"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:27 #Fulvius_p166_l10"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:27 #prope_armati_p166_l12"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:27 #togati_p166_l14"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:28 #quas_res_p166_l18"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:28 #adornavi_p166_l23"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:28 #quid_quod_p166_l25"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:29 #nec_tantis_p166_l30"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:30 #parvi_animi_p167_l5"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:30 #imagines_p167_l9"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:31 #pudore_eo_p167_l20"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:31 #vetustate_p167_l22"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:31 #id_convenit_p167_l22"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:31 #videatis_p167_l24"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:31 #municipi_p167_l25"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:31 #comprobetur_p167_l26"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:31 #ut_p167_l28"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:31 #accipiatis_p167_l28"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:31 #ex_numero_p168_l1"/>
+			<link target="urn:cts:latinLit:phi0474.phi016:31 #ab_qui_p168_l9"/>
 		</linkGrp>
 	</standOff>
 </TEI>
