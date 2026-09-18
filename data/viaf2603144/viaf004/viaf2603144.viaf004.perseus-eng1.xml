@@ -21,7 +21,7 @@
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Digital Library Project</authority>
 				<date type="release" when="2000-08-16" cert="high">Perseus 3.0</date>
-				<idno type="filename">viaf2603144.viaf004.xml</idno>
+				<idno type="filename">viaf2603144.viaf004.perseus-eng1.xml</idno>
 				<availability>
 					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
 						under a Creative Commons Attribution-ShareAlike 4.0 International
@@ -77,6 +77,8 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
+			<change when="2026-09-16" who="Alison Babeu">Final review and updating of header information</change>
+			<change when="2026-07-21" who="Charles Pletcher">Added citeStructure and other TEI changes</change>
 			<change when="2025-03-13" who="pletcher">Update refsDecl and body; move intro to
 				viaf004i</change>
 			<change when="2025-03-13" who="Alison Babeu">Updated header and schema</change>

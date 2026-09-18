@@ -22,7 +22,7 @@
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Digital Library Project</authority>
 				<date cert="high" type="release" when="2000-08-16">Perseus 3.0</date>
-				<idno type="filename">viaf2603144.viaf002i.xml</idno>
+				<idno type="filename">viaf2603144.viaf002i.perseus-eng1.xml</idno>
 				<availability>
 					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
 						under a Creative Commons Attribution-ShareAlike 4.0 International
@@ -85,6 +85,8 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
+			<change when="2026-09-16" who="Alison Babeu">Final review and updating of header information</change>
+			<change when="2026-07-21" who="Charles Pletcher">Added citeStructure and other TEI changes</change>
 			<change when="2025-03-24" who="Alison Babeu">Created separate file for intro</change>
 			<change when="2025-03-10" who="Alison Babeu">Updated header metadata</change>
 			<change when="2011-12-16" who="lcerrato">Revision 1.6 fixed Aristotle bibls</change>

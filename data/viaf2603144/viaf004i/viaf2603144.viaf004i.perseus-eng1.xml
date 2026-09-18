@@ -76,6 +76,8 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
+			<change when="2026-09-16" who="Alison Babeu">Final review and updating of header information</change>
+			<change when="2026-07-21" who="Charles Pletcher">Added citeStructure and other TEI changes</change>
 			<change when="2025-04-02" who="Alison Babeu">Created file and made file EpiDoc compliant</change>
 		</revisionDesc>
 	</teiHeader>

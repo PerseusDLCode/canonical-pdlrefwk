@@ -4,8 +4,8 @@
 	<teiHeader xml:lang="eng">
 		<fileDesc>
 			<titleStmt>
-				<title>Commentary on Sophocles: Trachiniae</title>
-				<author n="Jebb">Sir Richard C. Jebb</author>
+				<title>Introduction to Commentary on Sophocles: Trachiniae</title>
+				<author>Sir Richard C. Jebb</author>
 				<sponsor>Perseus Project, Tufts University</sponsor>
 				<principal>Gregory Crane</principal>
 				<respStmt>
@@ -22,7 +22,7 @@
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Digital Library Project</authority>
 				<date type="release" when="2000-08-16" cert="high">Perseus 3.0</date>
-				<idno type="filename">viaf2603144.viaf007.xml</idno>
+				<idno type="filename">viaf2603144.viaf007i.perseus-eng1.xml</idno>
 				<availability>
 					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
 						under a Creative Commons Attribution-ShareAlike 4.0 International
@@ -77,6 +77,8 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
+			<change when="2026-09-16" who="Alison Babeu">Final review and updating of header information</change>
+			<change when="2026-07-21" who="Charles Pletcher">Added citeStructure and other TEI changes</change>
 			<change when="2025-04-09" who="pletcher">Moved introduction to its own folder and
 				updated structure</change>
 			<change when="2025-03-13" who="Alison Babeu">Updated header and schema</change>

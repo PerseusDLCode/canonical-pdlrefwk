@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Scholia in Apollonium Rhodium Vetera</title>
-                <editor>Carolus Wendel</editor>
+                <title xml:lang="lat">Scholia in Apollonium Rhodium Vetera</title>
+                <editor>Carl Wendel</editor>
                 <sponsor>Perseus Project, Tufts University</sponsor>
                 <principal>Gregory Crane</principal>
                 <respStmt>
@@ -14,14 +14,28 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>Universitätsbibliothek Regensburg</publisher>
-                <idno type="filename">tlg5012.tlg001.wendelnotes-complete.xml</idno>
+                <idno type="filename">tlg5012.tlg001.wendelnotes-1.xml</idno>
                 <idno type="CTS-URN">urn:cts:greekLit:tlg5012.tlg001.wendelnotes-1</idno>
+                <date type="release" when="2026-XX-XX">Perseus 5.0</date>
                 <availability>
                     <p>Public Domain</p>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike 4.0 International
+                        License</licence>                    
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Wendel, C. (1935). Scholia in Apollonium Rhodium vetera. Berolini: Weidmann.</bibl>
+             <biblStruct>
+                 <monogr>
+                     <title>Scholia in Apollonium Rhodium vetera</title>
+                     <editor>Carolus Wendel</editor>
+                     <imprint>
+                         <pubPlace>Berlin</pubPlace>
+                         <publisher>Weidmann</publisher>
+                         <date>1935</date>
+                     </imprint>
+                 </monogr>                 
+             </biblStruct>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -48,9 +62,9 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2026-08-20">Reorganized into commentary, book, and commline divisions;
+            <change when="2026-08-20" who="pletcher">Reorganized into commentary, book, and commline divisions;
                 retained the complete supplied page sequence and textual content.</change>
-            <change when="2026-08-20">Combined all four books of Wendel's commentary; normalized
+            <change when="2026-08-20" who="pletcher">Combined all four books of Wendel's commentary; normalized
                 pasted XML fragments and encoded linked lemma/comment segments throughout.</change>
         </revisionDesc>
     </teiHeader>

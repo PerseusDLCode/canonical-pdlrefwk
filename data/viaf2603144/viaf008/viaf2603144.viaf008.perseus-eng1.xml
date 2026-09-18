@@ -19,6 +19,12 @@
 				<publisher>Trustees of Tufts University</publisher>
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Project</authority>
+				<date type="release" when="2000-08-16" cert="high">Perseus 3.0</date>
+				<idno type="filename">viaf2603144.viaf008.perseus-eng1.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+						under a Creative Commons Attribution-ShareAlike 4.0 International
+						License</licence></availability>
 			</publicationStmt>
 			<sourceDesc>
 				<biblStruct>
@@ -30,7 +36,10 @@
 							<publisher>Macmillan</publisher>
 							<date>1876</date>
 						</imprint>
+						<biblScope unit="volume">1-2</biblScope>
 					</monogr>
+						<ref target="https://archive.org/details/1181614.0001.001.umich.edu/" n="Vol 1">Internet Archive</ref>
+					<ref target="https://archive.org/details/afa6090.0002.001.umich.edu/" n="Vol 2">Internet Archive</ref>
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
@@ -80,6 +89,9 @@ in the reading environment.
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
+			<change when="2026-09-16" who="Alison Babeu">Final review and updating of header information</change>
+			<change when="2026-07-21" who="Charles Pletcher">Added citeStructure and other TEI changes</change>
+			<change when="2026-07" who="Charles Pletcher">Addec citeStructures </change>
 			<change when="2014-11-13" who="Stella Dee">edited markup and assigned CTS URN</change>
 		</revisionDesc>
 	</teiHeader>
