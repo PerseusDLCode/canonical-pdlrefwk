@@ -9,7 +9,7 @@
         workUrn="urn:cts:greekLit:viaf45640099.viaf001"
         xml:lang="eng">
         <ti:label xml:lang="eng">Commentary on Apollonius Rhodius: Argonautica</ti:label>
-        <ti:description xml:lang="mul">Apollonius Rhodius. Argonautica. George W. Mooney, editor and commentator. London: Longmans, Green, 1912.</ti:description>
+        <ti:description xml:lang="mul">Apollonius Rhodius. Argonautica. Mooney, George W., editor and commentator. London: Longmans, Green, 1912.</ti:description>
         <ti:about urn="urn:cts:greekLit:tlg0001.tlg001"/>
     </ti:commentary>
 </ti:work>

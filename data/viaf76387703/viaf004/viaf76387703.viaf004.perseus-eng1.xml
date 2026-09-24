@@ -5,12 +5,15 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Commentary on Thucydides: Book 7</title>
-				<author>E.C. Marchant</author>
+				<author>Edgar Carew Marchant</author>
 				<sponsor>Perseus Project, Tufts University</sponsor>
 				<principal>Gregory Crane</principal>
 				<respStmt>
 					<resp>Prepared under the supervision of</resp>
 					<name>Lisa Cerrato</name>
+					<name>Anne Mahoney</name>
+					<name>Jeffrey Rydberg-Cox</name>
+					<name>David Smith</name>
 				</respStmt>
 				<funder n="org:NEH">National Endowment for the Humanities</funder>
 			</titleStmt>
@@ -18,9 +21,29 @@
 				<publisher>Trustees of Tufts University</publisher>
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Project</authority>
+				<date type="release" when="2000-08-16" cert="high">Perseus 3.0</date>
+				<idno type="filename">viaf76387703.viaf004.perseus-eng1.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+						under a Creative Commons Attribution-ShareAlike 4.0 International
+						License</licence></availability>
 			</publicationStmt>
 			<sourceDesc>
-				<p>Professional Data Entry </p>
+				<biblStruct>
+					<monogr>
+						<title>Thucydides</title>
+						<title type="sub">Book VII</title>
+						<author>Edgar Carew Marchant</author>
+						<imprint>
+							<pubPlace>London</pubPlace>
+							<publisher>Macmillan &amp; Company</publisher>
+							<date>1919</date>
+						</imprint>
+					</monogr>
+					<ref target="https://hdl.handle.net/2027/hvd.hn5yel?urlappend=%3Bseq=163%3Bownerid=115687182-167">
+						HathiTrust
+					</ref>
+				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>

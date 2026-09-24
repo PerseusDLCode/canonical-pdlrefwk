@@ -4,12 +4,15 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Commentary on Thucydides: Book 6</title>
-				<author>E.C. Marchant</author>
+				<author>Edgar Carew Marchant</author>
 				<sponsor>Perseus Project, Tufts University</sponsor>
 				<principal>Gregory Crane</principal>
 				<respStmt>
 					<resp>Prepared under the supervision of</resp>
 					<name>Lisa Cerrato</name>
+					<name>Anne Mahoney</name>
+					<name>Jeffrey Rydberg-Cox</name>
+					<name>David Smith</name>
 				</respStmt>
 				<funder n="org:NEH">National Endowment for the Humanities</funder>
 			</titleStmt>
@@ -17,20 +20,27 @@
 				<publisher>Trustees of Tufts University</publisher>
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Project</authority>
+				<date type="release" when="2000-08-16" cert="high">Perseus 3.0</date>
+				<idno type="filename">viaf76387703.viaf003.perseus-eng1.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+						under a Creative Commons Attribution-ShareAlike 4.0 International
+						License</licence></availability>
 			</publicationStmt>
 			<sourceDesc>
 				<biblStruct>
 					<monogr>
-						<title>Commentary on Thucydides Book 6
-						</title>
-						<author>E.C. Marchant</author>
+						<title>Thucydides</title>
+						<title type="sub">Book VI</title>
+						<author>Thucydides</author>
+						<editor>Edgar Carew Marchant</editor>
 						<imprint>
 							<pubPlace>London</pubPlace>
-							<publisher>MacMillan &amp; Company</publisher>
-							<date>1909</date>
+							<publisher>Macmillan &amp; Company</publisher>
+							<date>1919</date>
 						</imprint>
 					</monogr>
-					<ref target="https://babel.hathitrust.org/cgi/pt?id=coo.31924026602486">
+					<ref target="https://hdl.handle.net/2027/coo.31924026602486?urlappend=%3Bseq=175%3Bownerid=13510798902183513-189">
 						HathiTrust
 					</ref>
 				</biblStruct>

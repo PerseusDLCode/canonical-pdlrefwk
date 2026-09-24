@@ -19,7 +19,7 @@
 				<publisher>Trustees of Tufts University</publisher>
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Project</authority>
-				<date type="release" cert="low">2002</date>
+				<date type="release" notBefore="2002-07-24">Perseus 3.0</date>
 				<idno type="filename">viaf45640099.viaf002.perseus-eng1.xml</idno>
 				<idno type="CTS-URN">urn:cts:greekLit:viaf45640099.viaf002.perseus-eng1</idno>
 				<availability>
@@ -31,13 +31,14 @@
 					<monogr>
 						<title>Argonautica</title>
 						<author>Apollonius Rhodius</author>
-						<editor role="editor">George W. Mooney</editor>
+						<editor>George W. Mooney</editor>
 						<imprint>
 							<pubPlace>London</pubPlace>
 							<publisher>Longmans, Green</publisher>
 							<date>1912</date>
 						</imprint>
 					</monogr>
+					<ref target="https://archive.org/details/argonauticaedite00apoluoft/page/n13/mode/2up">Internet Archive</ref>
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
@@ -79,7 +80,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
-			<change when="2026-08-22">Regularized the Mooney introduction as CTS-addressable EpiDoc;
+			<change when="2026-08-22" who="Greg Crane">Regularized the Mooney introduction as CTS-addressable EpiDoc;
 				textual content and pagination retained.</change>
 			<change when="2002">Initial Perseus markup and subsequent legacy corrections retained in
 				the source file.</change>

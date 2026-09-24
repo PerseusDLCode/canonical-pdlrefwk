@@ -10,6 +10,9 @@
 				<respStmt>
 					<resp>Prepared under the supervision of</resp>
 					<name>Lisa Cerrato</name>
+					<name>Anne Mahoney</name>
+					<name>Jeffrey Rydberg-Cox</name>
+					<name>David Smith</name>
 				</respStmt>
 				<funder n="org:NEH">National Endowment for the Humanities</funder>
 			</titleStmt>
@@ -17,15 +20,28 @@
 				<publisher>Trustees of Tufts University</publisher>
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Project</authority>
+				<date type="release" when="2000-08-16" cert="high">Perseus 3.0</date>
+				<idno type="filename">viaf76387703.viaf001a.perseus-eng1</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+						under a Creative Commons Attribution-ShareAlike 4.0 International
+						License</licence></availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl>
-					<title>Commentary on Thucydides Book 1</title>
-					<author>E. C. Marchant</author>
-					<date>1905</date>
-					<pubPlace>London</pubPlace>
-					<publisher>MacMillan and Company, Ltd.</publisher>
-				</bibl>
+				<biblStruct>
+					<monogr>						
+						<title>Thucydides</title>
+						<title type="sub">Book I</title>
+						<author>Thucydides</author>
+						<editor>Edgar Carew Marchant</editor>
+						<imprint>
+							<date>1905</date>
+							<pubPlace>London</pubPlace>
+							<publisher>Macmillan and Company, Ltd.</publisher>
+						</imprint>
+					</monogr>
+					<ref target="https://archive.org/details/histories01thucuoft/page/132/mode/2up">Internet Archive</ref>
+				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>

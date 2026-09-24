@@ -10,7 +10,10 @@
 				<principal>Gregory Crane</principal>
 				<respStmt>
 					<resp>Prepared under the supervision of</resp>
+					<name>Bridget Almas</name>
 					<name>Lisa Cerrato</name>
+					<name>David Mimno</name>
+					<name>Rashmi Singhal</name>
 				</respStmt>
 				<funder n="org:NEH">National Endowment for the Humanities</funder>
 			</titleStmt>
@@ -18,18 +21,32 @@
 				<publisher>Trustees of Tufts University</publisher>
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Project</authority>
+				<date type="release" when="2004-07-07">Perseus 3.0</date>
+				<idno type="filename">viaf107078652.viaf002.perseus-eng1.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+						under a Creative Commons Attribution-ShareAlike 4.0 International
+						License</licence></availability>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl>
-					<title>The Republic of Plato</title>
-					<author>James Adam</author>
-					<date>1902</date>
-					<pubPlace>Cambridge</pubPlace>
-					<publisher>Cambridge University Press</publisher>
-					<ref target="https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t65517p3d">
+				<biblStruct>
+					<monogr>
+						<title>The Republic of Plato</title>
+						<author>Plato</author>
+						<editor>James Adam</editor>					
+						<imprint>	
+							<pubPlace>Cambridge</pubPlace>
+							<publisher>Cambridge University Press</publisher>
+							<date type="printing">1926-1929</date>
+							<note>First printed in 1902-1903</note>
+							<biblScope unit="volume">1-2</biblScope>
+						</imprint>
+					</monogr>
+					<ref target="https://hdl.handle.net/2027/dul1.ark:/13960/t65517p3d?urlappend=%3Bseq=25" n="Vol 1">
 						Hathi Trust
 					</ref>
-				</bibl>
+					<ref target="https://hdl.handle.net/2027/iau.31858002195216?urlappend=%3Bseq=13%3Bownerid=116867081-17" n="Vol 2">HathiTrust</ref>
+				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>

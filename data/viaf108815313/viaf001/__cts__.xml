@@ -2,7 +2,8 @@
     urn="urn:cts:greekLit:viaf108815313.viaf001" xml:lang="eng">
     <ti:title xml:lang="eng">An Overview of Classical Greek History from Mycenae to Alexander</ti:title>
     <ti:commentary workUrn="urn:cts:greekLit:viaf108815313.viaf001"
-        urn="urn:cts:greekLit:viaf108815313.viaf001.perseus-eng1" xml:lang="eng">
-        <ti:description xml:lang="mul">Written in MS Word by Tom Martin.</ti:description>
+        urn="urn:cts:greekLit:viaf108815313.viaf001.xml" xml:lang="eng">
+        <ti:description xml:lang="mul">An Overview of Classical Greek History from Mycenae
+            to Alexander.Martin, Thomas R. Perseus Digital Library. </ti:description>
     </ti:commentary>
 </ti:work>

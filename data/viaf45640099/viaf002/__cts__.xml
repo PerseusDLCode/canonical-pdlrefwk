@@ -9,7 +9,7 @@
         workUrn="urn:cts:greekLit:viaf45640099.viaf002"
         xml:lang="eng">
         <ti:label xml:lang="eng">Introduction to Apollonius Rhodius: Argonautica</ti:label>
-        <ti:description xml:lang="mul">Introduction to Apollonius Rhodius' Argonautica by George W. Mooney. London: Longmans, Green, 1912.</ti:description>
+        <ti:description xml:lang="mul">Apollonius Rhodius. Argonautica. Mooney, George W., editor. London: Longmans, Green, 1912.</ti:description>
         <ti:about urn="urn:cts:greekLit:tlg0001.tlg001"/>
     </ti:commentary>
 </ti:work>

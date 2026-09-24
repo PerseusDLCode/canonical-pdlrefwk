@@ -5,13 +5,16 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Commentary on Plato, Protagoras</title>
-				<author n="Adam">J. Adam</author>
-				<author>A. M. Adam</author>
+				<author>James Adam</author>
+				<author>Adela Marion Adam</author>
 				<sponsor>Perseus Project, Tufts University</sponsor>
 				<principal>Gregory Crane</principal>
 				<respStmt>
 					<resp>Prepared under the supervision of</resp>
+					<name>Bridget Almas</name>
 					<name>Lisa Cerrato</name>
+					<name>David Mimno</name>
+					<name>Rashmi Singhal</name>
 				</respStmt>
 				<funder n="org:NEH">National Endowment for the Humanities</funder>
 			</titleStmt>
@@ -19,20 +22,24 @@
 				<publisher>Trustees of Tufts University</publisher>
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Project</authority>
+				<date type="release" when="2004-07-07">Perseus 3.0</date>
+				<idno type="filename">viaf107078652.viaf001.perseus-eng1.xml</idno>
 			</publicationStmt>
 			<sourceDesc>
 				<biblStruct>
 					<monogr>
 						<author>Plato</author>
 						<title>Protagoras</title>
-						<editor>J. Adam &amp; A. M. Adam</editor>
+						<editor>James Adam</editor>
+						<editor>Adela Marion Adam</editor>
 						<imprint>
 							<pubPlace>Cambridge</pubPlace>
 							<publisher>Cambridge University Press</publisher>
-							<date>1893</date>
+							<date>1921</date>
+							<note>First printing 1893</note>
 						</imprint>
 					</monogr>
-					<ref target="https://babel.hathitrust.org/cgi/pt?id=uc1.c087120709">
+					<ref target="https://hdl.handle.net/2027/uc1.c087120709?urlappend=%3Bseq=117%3Bownerid=13510798903241953-121">
 						Hathi Trust
 					</ref>
 				</biblStruct>

@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Commentary on Aeschylus: Eumenides</title>
-                <author n="Sidgwick">Arthur Sidgwick</author>
+                <author>Arthur Sidgwick</author>
                 <sponsor>Perseus Project, Tufts University</sponsor>
                 <principal>Gregory Crane</principal>
                 <respStmt>
@@ -16,7 +16,7 @@
                 <publisher>Trustees of Tufts University</publisher>
                 <pubPlace>Medford, MA</pubPlace>
                 <authority>Perseus Digital Library Project</authority>
-                <idno type="filename">https://hdl.handle.net/2027/oxu1.602381324</idno>
+                <idno type="filename">viaf54220216.viaf001.perseus-eng1.xml</idno>
                 <availability>
                     <p>For scholarly use; verify rights against the source edition and repository
                         policy.</p>
@@ -26,7 +26,6 @@
                 <biblStruct>
                     <monogr>
                         <title>Aeschylus: Eumenides</title>
-                        <title type="subtitle">With Introduction and Notes</title>
                         <author>Aeschylus</author>
                         <editor>Arthur Sidgwick</editor>
                         <imprint>
@@ -35,6 +34,7 @@
                             <date>1887</date>
                         </imprint>
                     </monogr>
+                    <ref target="https://hdl.handle.net/2027/oxu1.602381324">HathiTrust</ref>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
@@ -69,7 +69,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2026-08-13">Converted from legacy Perseus markup to TEI/EpiDoc P6
+            <change when="2026-09-22" who="Alison Babeu">Minor header changes.</change>
+            <change when="2026-08-13" who="Greg Crane">Converted from legacy Perseus markup to TEI/EpiDoc P6
                 commentary structure.</change>
         </revisionDesc>
     </teiHeader>

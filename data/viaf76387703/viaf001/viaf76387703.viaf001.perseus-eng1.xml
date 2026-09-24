@@ -4,10 +4,13 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Commentary on Thucydides: Book 2</title>
-				<author>E.C. Marchant</author>
+				<author>Edgar Carew Marchant</author>
 				<respStmt>
 					<resp>Prepared under the supervision of</resp>
 					<name>Lisa Cerrato</name>
+					<name>Anne Mahoney</name>
+					<name>Jeffrey Rydberg-Cox</name>
+					<name>David Smith</name>
 				</respStmt>
 				<funder n="org:NEH">National Endowment for the Humanities</funder>
 			</titleStmt>
@@ -15,16 +18,23 @@
 				<publisher>Trustees of Tufts University</publisher>
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Project</authority>
+				<date type="release" when="2000-08-16" cert="high">Perseus 3.0</date>
+				<idno type="filename">viaf76387703.viaf001.perseus-eng1</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+						under a Creative Commons Attribution-ShareAlike 4.0 International
+						License</licence></availability>
 			</publicationStmt>
 			<sourceDesc>
 				<biblStruct>
 					<monogr>
-						<title>Commentary on Thucydides Book 2
-						</title>
-						<author>E.C. Marchant</author>
+						<title>Thucydides</title>
+						<title type="sub">Book II</title>
+						<author>Thucydides</author>
+						<editor>Edgar Carew Marchant</editor>
 						<imprint>
 							<pubPlace>London</pubPlace>
-							<publisher>MacMillan &amp; Company</publisher>
+							<publisher>Macmillan and Co.</publisher>
 							<date>1891</date>
 						</imprint>
 					</monogr>
